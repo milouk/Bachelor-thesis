@@ -1,7 +1,15 @@
 % ******************************* PhD Thesis Template **************************
 % Please have a look at the README.md file for info on how to use the template
 
-\documentclass[a4paper,12pt,times,numbered,print,index]{PhDThesisPSnPDF}
+\documentclass[a4paper,12pt,times,numbered,print]{PhDThesisPSnPDF}
+
+%******************************************************************************
+% ******************************** Glossary Table *****************************
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{longtable}
+%******************************************************************************
+
 
 % ******************************************************************************
 % ******************************* Class Options ********************************
@@ -83,7 +91,7 @@
 \input{Preamble/preamble}
 
 % ************************ Thesis Information & Meta-data **********************
-% Thesis title and author information, refernce file for biblatex
+% Thesis title and author information, reference file for biblatex
 \input{thesis-info}
 
 % ***************************** Abstract Separate ******************************
@@ -121,7 +129,7 @@
 % *********************** Adding TOC and List of Figures ***********************
 
 \tableofcontents
-
+	
 \listoffigures
 
 \listoftables

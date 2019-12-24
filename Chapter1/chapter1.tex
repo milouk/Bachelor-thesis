@@ -3,7 +3,7 @@
 %*********************************** First Chapter *****************************
 %*******************************************************************************
 
-\chapter{Getting started}  %Title of the First Chapter
+\chapter{Introduction}  %Title of the First Chapter
 
 \ifpdf
     \graphicspath{{Chapter1/Figs/Raster/}{Chapter1/Figs/PDF/}{Chapter1/Figs/}}
@@ -11,90 +11,176 @@
     \graphicspath{{Chapter1/Figs/Vector/}{Chapter1/Figs/}}
 \fi
 
+At a policy level, the Tallinn Declaration, signed on 6th October 20172
+, confirms the commitment to the vision
+laid out in the EU eGovernment Action Plan 2016-20203 and in the European Interoperability Framework
+(EIF)4
+. In the next five years (2018-2022), steps will be taken towards the declared principles in EU public
+administrations, namely: “digital-by-default, inclusiveness and accessibility”, “once-only”, “trustworthiness and
+security”, “openness and transparency”, and “interoperability by default”, as well as national interoperability
+frameworks based on the European Interoperability Framework (EIF).
+In the Declaration the “user-centricity principles for design and delivery of digital public services” is key.
+When interacting with public administrations and using digital public services, citizens and businesses
+should have: digital interaction, accessibility, security, availability and usability, reduction of the
+administrative burden, digital delivery of public services, citizen engagement, incentives for digital service
+use, protection of personal data and privacy, redress and complaint mechanisms. Whilst not specifically
+covered within the scope of this study, AI has the potential to improve public services and contribute to the
+objectives set out in the Tallinn Declaration. For example, the Commission will look into AI's potential to
+analyse large amounts of data and help check how single market rules are applied5
+.
+Moreover, the digital transformation of society, business and government is raising issues for a range of
+policy matters across the European Union. As e-government has been in place for the last 20 years, it is
+timely to explore the interplay between technology and government activities from the perspective of digital
+government. To understand the intertwined forces that play a role in this transformation process, and their
+dynamics, contributions from disparate fields and discourses on this topic should be contrasted and
+compared.
+At the same time, the Communication on “Building the data economy” (COM (2017) 9) looks at proven or
+potential blockages to the free movement of data and presents options to remove unjustified and or
+disproportionate data location restrictions in the EU. It also considers the barriers around access to, and
+transfer of, non-personal machine-generated data and data liability, as well as issues related to the
+portability of non-personal data, interoperability and standards. In particular, it calls for the fostering of
+technical solution development for the reliable identification and exchange of data.
+A further avenue for research, complementary to this context of the digital transformation of government, is
+the use of Web Application Programming Interfaces (hereafter called “APIs”)). APIs can be seen as “safe
+entry ports for new and innovative uses of data” held by companies and, potentially, public administrations.
+An opportunity exists to understand the current context and uptake of this technology early in the innovation
+cycle of e-government in Europe, including for, but not limited to, geospatial data. 
+
+In this context, Gartner was mandated by the Joint Research Centre (JRC) to conduct a study to provide an
+analysis of the Web APIs as enablers for the digital transformation of governments. While digital
+transformation of government is much wider than the technologies which can potentially support it, an
+analysis of the role of APIs in the public sector is highly relevant to illustrate how technology can enable
+transformation of government.
+This study explores APIs, and their role in the EU public sector. It is divided up into the following sections:
+• Introduction.
+• Methodology: A description of the way in which this study has been conducted using different
+research designs, including desk based research, consultation of API experts and multiple-case
+study investigation. Also, using diverse research methods, including API reference and specific
+document review, and interviews.
+• Use of APIs in the Public Sector: Explores typical uses of APIs, such as to enable ecosystems,
+before looking at some specific examples of API use.
+• Relationship with location data: Explores how adding an additional layer of location data, with
+other data (via APIs) can provide powerful use cases in many settings such as Smart Cities and
+Gazetteers.
+• Differences with the Private Sector: Explores any differences which may exist between the
+public sector and private sector use of APIs.
+• Future trends for API use: A view on how APIs may evolve, and their future uses in a world
+where AI and Robotics are becoming prevalent.
+• Case Study Insights – Presentation of the findings from case study interviews and associated
+desk based research, plus analysis.
+• Conclusions and Recommendations.
+• Conclusion.
+
+\clearpage
 
 %********************************** %First Section  **************************************
-\section{What is loren ipsum? Title with math \texorpdfstring{$\sigma$}{[sigma]}} %Section - 1.1 
+\section{Glossary} %Section - 1.1 
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry (see 
-Section~\ref{section1.3}). Lorem Ipsum~\citep{Aup91} has been the industry's 
-standard dummy text ever since the 1500s, when an unknown printer took a galley 
-of type and scrambled it to make a type specimen book. It has survived not only 
-five centuries, but also the leap into electronic typesetting, remaining 
-essentially unchanged. It was popularised in the 1960s with the release of 
-Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-publishing software like Aldus PageMaker including versions of Lorem 
-Ipsum~\citep{AAB95,Con90,LM65}.
-
-The most famous equation in the world: $E^2 = (m_0c^2)^2 + (pc)^2$, which is 
-known as the \textbf{energy-mass-momentum} relation as an in-line equation.
-
-A {\em \LaTeX{} class file}\index{\LaTeX{} class file@LaTeX class file} is a file, which holds style information for a particular \LaTeX{}.
-
-
-\begin{align}
-CIF: \hspace*{5mm}F_0^j(a) = \frac{1}{2\pi \iota} \oint_{\gamma} \frac{F_0^j(z)}{z - a} dz
-\end{align}
-
-\nomenclature[z-cif]{$CIF$}{Cauchy's Integral Formula}                                % first letter Z is for Acronyms 
-\nomenclature[a-F]{$F$}{complex function}                                                   % first letter A is for Roman symbols
-\nomenclature[g-p]{$\pi$}{ $\simeq 3.14\ldots$}                                             % first letter G is for Greek Symbols
-\nomenclature[g-i]{$\iota$}{unit imaginary number $\sqrt{-1}$}                      % first letter G is for Greek Symbols
-\nomenclature[g-g]{$\gamma$}{a simply closed curve on a complex plane}  % first letter G is for Greek Symbols
-\nomenclature[x-i]{$\oint_\gamma$}{integration around a curve $\gamma$} % first letter X is for Other Symbols
-\nomenclature[r-j]{$j$}{superscript index}                                                       % first letter R is for superscripts
-\nomenclature[s-0]{$0$}{subscript index}                                                        % first letter S is for subscripts
-
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{|l|l|}
+	\hline
+	\multicolumn{1}{|c|}{\textbf{Term}} & \multicolumn{1}{c|}{\textbf{Definition}} \\ \hline
+	\endfirsthead
+	%
+	\endhead
+	%
+	API & \begin{tabular}[c]{@{}l@{}}Application Programming Interface - It is a set of clearly\\ defined methods of communication between the service\\ and any other software or components.\end{tabular} \\ \hline
+	API Ecosystem & \begin{tabular}[c]{@{}l@{}}The developers, and the users of the application constructs\\ they build through an API, either within a company or on\\ the Internet with business partners, customers, citizens etc.\end{tabular} \\ \hline
+	API Economy & \begin{tabular}[c]{@{}l@{}}A set of business models and channels — based on secure\\ access of functionality and exchange of data to an ecosystem\\ of developers and the users of the app constructs they\\ build — through an API, either within a company or on the\\ Internet with business partners, customers, citizens etc.\end{tabular} \\ \hline
+	API Versioning & \begin{tabular}[c]{@{}l@{}}The ability to change without rendering older versions of\\ the same API inoperable.\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}API\\ Standardisation\end{tabular} & \begin{tabular}[c]{@{}l@{}}A uniform way for APIs to be expressed and consumed,\\ from COM and CORBA object brokers to web services\\ to today’s RESTful patterns.\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}API information\\ control\end{tabular} & \begin{tabular}[c]{@{}l@{}}A built-in means for enriching and handling the\\ information embodied by the API. This information\\ includes metadata, approaches to handling batches of\\ records, and hooks for middleware platforms, message\\ brokers, and service buses. It also defines how APIs\\ communicate, route, and manipulate the information\\ being exchanged.\end{tabular} \\ \hline
+	API portal & \begin{tabular}[c]{@{}l@{}}A means for developers to discover, collaborate,\\ consume, and publish APIs. To support the overall\\ goal of self-service, these portals describe APIs in\\ a way that represents their functionality, context\\ (the business semantics of what they do, and how \\ they do it), non-functional requirements (scalability,\\ security, response times, volume limits, and resiliency\\ dimensions of the service), versioning, and metrics \\ tracking usage, feedback, and performance.\\ For organizations without mature master data or\\ architectural standards, the API portal can still offer\\ visibility into existing APIs and provide contact information\\ for individuals who can describe features, functions, and\\ technical details of services.\end{tabular} \\ \hline
+	API gateway & \begin{tabular}[c]{@{}l@{}}A mechanism that allows consumers to become\\ authenticated and to “contract” with API specifications\\ and policies that are built into the API itself. Gateways\\ make it possible to decouple the “API proxy”—the node\\ by which consumers logically interact with the service—from\\ the underlying application for which the actual service is \\ being implemented. The gateway layer may offer the means\\ to load balance and throttle API usage.\end{tabular} \\ \hline
+	API brokers & \begin{tabular}[c]{@{}l@{}}Enrichment, transformation, and validation services\\ to manipulate information coming to/from APIs, as\\ well as tools to embody business rule engines, workflow,\\ and business process orchestration on top of underlying APIs.\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}API\\ management\\ and monitoring\end{tabular} & \begin{tabular}[c]{@{}l@{}}A centralized and managed control level that provides\\ monitoring, service level management, SDLC process\\ integration, and role-based access management across\\ all three layers above. It includes the ability to instrument\\ and measure API usage, and even capabilities to price and\\ bill charge-back based on API consumption—to internal,\\ or potentially external, parties.\end{tabular} \\ \hline
+	RESTful API & \begin{tabular}[c]{@{}l@{}}REST stands for “representational state transfer.” APIs\\ built according to REST architectural standards are\\ stateless and offer a simpler alternative to some SOAP\\ standards. For example, REST enables plain-text exchanges\\ of data assets instead of using complex WSDL protocols.\\ It also makes it possible to inherit security policies\\ from an underlying transport mechanism. At a high level,\\ these and other simplified approaches can deliver better\\ performance and faster paths to develop, deploy, and\\ triage.\end{tabular} \\ \hline
+	\caption{}
+	\label{glossary}\\
+\end{longtable}
 
 %********************************** %Second Section  *************************************
-\section{Why do we use loren ipsum?} %Section - 1.2
+\section{API Overview} %Section - 1.2
 
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using `Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for `lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-%********************************** % Third Section  *************************************
-\section{Where does it come from?}  %Section - 1.3 
-\label{section1.3}
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from ``de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
-
-``Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-Section 1.10.32 of ``de Finibus Bonorum et Malorum", written by Cicero in 45 BC: ``Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-
-1914 translation by H. Rackham: ``But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-
-Section 1.10.33 of ``de Finibus Bonorum et Malorum", written by Cicero in 45 BC: ``At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-
-1914 translation by H. Rackham: ``On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-
-\nomenclature[z-DEM]{DEM}{Discrete Element Method}
-\nomenclature[z-FEM]{FEM}{Finite Element Method}
-\nomenclature[z-PFEM]{PFEM}{Particle Finite Element Method}
-\nomenclature[z-FVM]{FVM}{Finite Volume Method}
-\nomenclature[z-BEM]{BEM}{Boundary Element Method}
-\nomenclature[z-MPM]{MPM}{Material Point Method}
-\nomenclature[z-LBM]{LBM}{Lattice Boltzmann Method}
-\nomenclature[z-MRT]{MRT}{Multi-Relaxation 
-Time}
-\nomenclature[z-RVE]{RVE}{Representative Elemental Volume}
-\nomenclature[z-GPU]{GPU}{Graphics Processing Unit}
-\nomenclature[z-SH]{SH}{Savage Hutter}
-\nomenclature[z-CFD]{CFD}{Computational Fluid Dynamics}
-\nomenclature[z-LES]{LES}{Large Eddy Simulation}
-\nomenclature[z-FLOP]{FLOP}{Floating Point Operations}
-\nomenclature[z-ALU]{ALU}{Arithmetic Logic Unit}
-\nomenclature[z-FPU]{FPU}{Floating Point Unit}
-\nomenclature[z-SM]{SM}{Streaming Multiprocessors}
-\nomenclature[z-PCI]{PCI}{Peripheral Component Interconnect}
-\nomenclature[z-CK]{CK}{Carman - Kozeny}
-\nomenclature[z-CD]{CD}{Contact Dynamics}
-\nomenclature[z-DNS]{DNS}{Direct Numerical Simulation}
-\nomenclature[z-EFG]{EFG}{Element-Free Galerkin}
-\nomenclature[z-PIC]{PIC}{Particle-in-cell}
-\nomenclature[z-USF]{USF}{Update Stress First}
-\nomenclature[z-USL]{USL}{Update Stress Last}
-\nomenclature[s-crit]{crit}{Critical state}
-\nomenclature[z-DKT]{DKT}{Draft Kiss Tumble}
-\nomenclature[z-PPC]{PPC}{Particles per cell}
+APIs have become a foundational technological component of modern digital architectures, impacting every
+sector of the global economy. In the public sector specifically, APIs are a key enabler of the accelerated
+evolution of government and its agencies from analogue (manual, paper) operations, to digital.
+The purpose of our study is to create a report that will support member states with the adoption of APIs
+when in pursuit of their digital transformation. In order to explore this purpose, our investigation has
+incorporated (but is not limited to) the following topics:
+• The current use of APIs in the EU public sector.
+• Differences between API use in the public sector and the private sector.
+• The future trends for APIs.
+• The relationship with location data.
+• Insights from eight case study interviews, using real world examples to explore different
+dimensions of the API landscape, including API Strategy, API Ecosystems, and specific APIs.
+Our approach is covered in detail in the Methodology section later in this report. In summary, we have used
+a combination of desk based research and interviews to gather information for analysis. For the interviews,
+we used a questionnaire to collect information from representatives of a set of successful but diverse API
+based case studies from a range of EU countries and sectors.
+API Overview
+API interaction occurs when one application would like to:
+• Access or query the data held by another application
+• Send data to that application
+• Update data held in that application
+• Request a service from another application
+Types of APIs
+Crucially, the use of APIs therefore simplifies, and standardises the interface reducing complexity and cost
+of deployment over that of custom built interfaces. APIs represent an architectural approach that revolves
+around providing programmable interfaces to different applications. It is technology agnostic, and creates a
+flexible, loosely coupled architecture that allows a solution to be made up of components that can more
+easily be switched in and out. The API approach is also a key enabler for application developers to build
+apps that rapidly adapt to end user needs.
+In the public sector, APIs enable important functionality and information held in one agency’s system or
+department to be readily available to another without significant and expensive development effort. As well
+as cross-departmental (agency) access to functionality and information (or even cross-border with a
+different country’s administration) APIs also provide the ability to share information and functionality more
+widely, i.e. to developers and ultimately to citizens for consumption through web or mobile based
+applications.
+Although there are many different types of API (see Appendix I), this study is most concerned with Web
+APIs. Web services expose these APIs as endpoints that any internet-enabled language or software can
+access, in exactly the same way browsers access websites and services7
+. Web APIs deliver requests to the
+service provider, and then deliver the response back to the requestor, i.e. they are an interface for web
+applications, or applications that need to connect to each other via the Internet to communicate8
+.
+Web APIs themselves can be broken down further based on the type of data format that they harness, for
+example, well known types are Simple Object Access Protocol (SOAP), Remote Procedure Call (RPC)
+based APIs, and the Representational State Transfer (REST) architectural style. GraphQL – is a data query
+language growing in popularity and has been adopted by leading social media outlets such as Facebook
+and Pinterest9 as a type of API. While typical REST APIs require loading from multiple URLs, GraphQL
+APIs get all the data an app developer needs in a single request enhancing speed of response even on
+slow mobile network connections10.
+Whilst the more traditional APIs are used as integration points within systems hidden from view, Web APIs
+are often publicly available and can be ‘advertised’ via API Directory sites online. Tens of thousands11 are
+available for developers to deliver consumable information to end users to do everything, from checking
+traffic and weather, to updating a social media status, or even to make payments.
+In the geospatial domain, besides existing private companies famous API proposals (e.g. Google Map), the
+Open Geospatial Consortium (OGC) has created standards to support the exchange of geospatial
+information12. They describe their Web services API standards as an agreed specification of rules and
+guidelines about how to implement software interfaces and data encodings13. Geospatial software vendors,
+developers and users collaborate in the OGC’s consensus process to develop and agree on standards that
+enable information systems to exchange geospatial information and instructions for geoprocessing. OGC
+standards are open standards. The OGC interface standards are also available in the REST style, and
+cover a number of aspects:
+• Visualisation standards e.g. Web Map Service (WMS).
+• Data Access Standards e.g. Web Feature Service (WFS), SensorThings API.
+• Processing Standards e.g. Web Processing Service (WPS).
+• Metadata and Catalogue Service Standards e.g. Catalog Service for the Web (CWS).
+• The informatics contract between the client code which manipulates normalized data structures of
+geographic information based on the published API and the library code, e.g. the GeoAPI
+Implementation Standard.
+The standards above are part of the few globally agreed specifications adopted by the Technical Committee
+211 of the International Organization for Standardization (ISO). ISO is also known to be working on
+standards in other sectors, notably in Financial Services with ISO 2002214: however, because of they are
+work in progress, details about them are still limited.
+Whilst standards of this formal and specific nature are used in the EU, there is clear evidence that the need
+for harmonising APIs lifecycle has been recognised. For example, the UK Government Digital Service
+recognised that departments were developing APIs using different tools, platforms and approaches15, and
+have set about working with industry to create a set of common principles for API design. The output has
+been a set of guidelines on how developers working in any UK public sector organisation should build
+APIs16 to ensure consistency, and success. Although they are titled as a ‘standard’, they are generic, and
+not exact or specific in the way that an ISO or OGC standard is. Nevertheless, given the fact that
+government is increasingly using APIs to automate processes and provide citizens with access to new
+services it is hoped this approach will make integration simpler and faster.
