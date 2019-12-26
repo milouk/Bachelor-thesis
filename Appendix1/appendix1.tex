@@ -1,132 +1,21 @@
 %!TEX root = ../thesis.tex
 % ******************************* Thesis Appendix A ****************************
-\chapter{How to install \LaTeX} 
+\chapter{API Types} 
 
-\section*{Windows OS}
-
-\subsection*{TeXLive package - full version}
-\begin{enumerate}
-\item	Download the TeXLive ISO (2.2GB) from\\
-\href{https://www.tug.org/texlive/}{https://www.tug.org/texlive/}
-\item	Download WinCDEmu (if you don't have a virtual drive) from \\
-\href{http://wincdemu.sysprogs.org/download/}
-{http://wincdemu.sysprogs.org/download/}
-\item	To install Windows CD Emulator follow the instructions at\\
-\href{http://wincdemu.sysprogs.org/tutorials/install/}
-{http://wincdemu.sysprogs.org/tutorials/install/}
-\item	Right click the iso and mount it using the WinCDEmu as shown in \\
-\href{http://wincdemu.sysprogs.org/tutorials/mount/}{
-http://wincdemu.sysprogs.org/tutorials/mount/}
-\item	Open your virtual drive and run setup.pl
-\end{enumerate}
-
-or
-
-\subsection*{Basic MikTeX - \TeX~ distribution}
-\begin{enumerate}
-\item	Download Basic-MiK\TeX (32bit or 64bit) from\\
-\href{http://miktex.org/download}{http://miktex.org/download}
-\item	Run the installer 
-\item	To add a new package go to Start >> All Programs >> MikTex >> Maintenance (Admin) and choose Package Manager
-\item	Select or search for packages to install
-\end{enumerate}
-
-\subsection*{TexStudio - \TeX~ editor}
-\begin{enumerate}
-\item	Download TexStudio from\\
-\href{http://texstudio.sourceforge.net/\#downloads}
-{http://texstudio.sourceforge.net/\#downloads} 
-\item	Run the installer
-\end{enumerate}
-
-\section*{Mac OS X}
-\subsection*{MacTeX - \TeX~ distribution}
-\begin{enumerate}
-\item	Download the file from\\
-\href{https://www.tug.org/mactex/}{https://www.tug.org/mactex/}
-\item	Extract and double click to run the installer. It does the entire configuration, sit back and relax.
-\end{enumerate}
-
-\subsection*{TexStudio - \TeX~ editor}
-\begin{enumerate}
-\item	Download TexStudio from\\
-\href{http://texstudio.sourceforge.net/\#downloads}
-{http://texstudio.sourceforge.net/\#downloads} 
-\item	Extract and Start
-\end{enumerate}
-
-
-\section*{Unix/Linux}
-\subsection*{TeXLive - \TeX~ distribution}
-\subsubsection*{Getting the distribution:}
-\begin{enumerate}
-\item	TexLive can be downloaded from\\
-\href{http://www.tug.org/texlive/acquire-netinstall.html}
-{http://www.tug.org/texlive/acquire-netinstall.html}.
-\item	TexLive is provided by most operating system you can use (rpm,apt-get or yum) to get TexLive distributions
-\end{enumerate}
-
-\subsubsection*{Installation}
-\begin{enumerate}
-\item	Mount the ISO file in the mnt directory
-\begin{verbatim}
-mount -t iso9660 -o ro,loop,noauto /your/texlive####.iso /mnt
-\end{verbatim}
-
-\item	Install wget on your OS (use rpm, apt-get or yum install)
-\item	Run the installer script install-tl.
-\begin{verbatim}
-	cd /your/download/directory
-	./install-tl
-\end{verbatim}
-\item	Enter command `i' for installation
-
-\item	Post-Installation configuration:\\
-\href{http://www.tug.org/texlive/doc/texlive-en/texlive-en.html\#x1-320003.4.1}
-{http://www.tug.org/texlive/doc/texlive-en/texlive-en.html\#x1-320003.4.1} 
-\item	Set the path for the directory of TexLive binaries in your .bashrc file
-\end{enumerate}
-
-\subsubsection*{For 32bit OS}
-For Bourne-compatible shells such as bash, and using Intel x86 GNU/Linux and a default directory setup as an example, the file to edit might be \begin{verbatim}
-edit $~/.bashrc file and add following lines
-PATH=/usr/local/texlive/2011/bin/i386-linux:$PATH; 
-export PATH 
-MANPATH=/usr/local/texlive/2011/texmf/doc/man:$MANPATH;
-export MANPATH 
-INFOPATH=/usr/local/texlive/2011/texmf/doc/info:$INFOPATH;
-export INFOPATH
-\end{verbatim}
-\subsubsection*{For 64bit OS}
-\begin{verbatim}
-edit $~/.bashrc file and add following lines
-PATH=/usr/local/texlive/2011/bin/x86_64-linux:$PATH;
-export PATH 
-MANPATH=/usr/local/texlive/2011/texmf/doc/man:$MANPATH;
-export MANPATH 
-INFOPATH=/usr/local/texlive/2011/texmf/doc/info:$INFOPATH;
-export INFOPATH
-
-\end{verbatim}
-
-
-
-%\subsection{Installing directly using Linux packages} 
-\subsubsection*{Fedora/RedHat/CentOS:}
-\begin{verbatim} 
-sudo yum install texlive 
-sudo yum install psutils 
-\end{verbatim}
-
-
-\subsubsection*{SUSE:}
-\begin{verbatim}
-sudo zypper install texlive
-\end{verbatim}
-
-
-\subsubsection*{Debian/Ubuntu:}
-\begin{verbatim} 
-sudo apt-get install texlive texlive-latex-extra 
-sudo apt-get install psutils
-\end{verbatim}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{|l|l|l|}
+	\hline
+	\multicolumn{1}{|c|}{\textbf{API Type}} & \multicolumn{1}{c|}{\textbf{Data Formats}} & \multicolumn{1}{c|}{\textbf{Description}} \\ \hline
+	\endfirsthead
+	%
+	\endhead
+	%
+	\multirow{5}{*}{Web APIs} & SOAP over HTTP/S & \begin{tabular}[c]{@{}l@{}}SOAP is a protocol that defines the\\ communication method, and the\\ structure of the messages. The\\ data transfer format is XML.\\ A SOAP service publishes a definition\\ of its interface in a machine-readable\\ document, using WSDL – Web Services\\ Definition Language.\end{tabular} \\ \cline{2-3} 
+	& XML-RPC over HTTP/S & \begin{tabular}[c]{@{}l@{}}XML-RPC is an older protocol than\\ SOAP. It uses a specific XML format\\ for data transfer, whereas SOAP allows\\ a proprietary XML format. An XMLRPC\\ call tends to be much simpler, and to use\\ less bandwidth, than a SOAP call.\end{tabular} \\ \cline{2-3} 
+	& \begin{tabular}[c]{@{}l@{}}JSON- RPC over\\ HTTP/S\end{tabular} & \begin{tabular}[c]{@{}l@{}}JSON-RPC is similar to XML-RPC,\\ but uses JSON instead of XML for\\ data transfer.\end{tabular} \\ \cline{2-3} 
+	& REST over HTTP/S & \begin{tabular}[c]{@{}l@{}}REST is not a protocol, but rather a\\ set of architectural principles. Some\\ of the characteristics required of a \\ REST service include simplicity of\\ interfaces, identification of resources\\ within the request, and the ability to\\ manipulate the resources via the interface.\\ The most commonly-used data format is\\ JSON or XML. Often the service will offer\\ a choice, and the client can request one or\\ the other by including “json” or “xml” in\\ the URL path or in a URL parameter.\\ In a well-defined REST service, there is no\\ tight coupling between the REST interface\\ and the underlying architecture of the\\ service. This is often cited as the main\\ advantage of REST over RPC\\ (Remote Procedure Call) architectures.\end{tabular} \\ \cline{2-3} 
+	& GraphQL & \begin{tabular}[c]{@{}l@{}}GraphQL is a data query language\\ developed internally by Facebook in\\ 2012 before being publicly released\\ in 2015. It provides an alternative to\\ REST and ad-hoc webservice architectures.\\ While typical REST APIs require loading\\ from multiple URLs, GraphQL APIs get\\ all the data an app developer needs in a single\\ request enhancing speed of response even on\\ slow mobile network connections.\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}Library\\ based APIs\end{tabular} & \begin{tabular}[c]{@{}l@{}}JavaScript APIs,\\ TWAIN, Twilio\end{tabular} & \begin{tabular}[c]{@{}l@{}}To use this type of API, an application\\ will reference  or import a library of\\ code or of binary functions, and use the\\ functions/routines from that library to\\ perform actions and exchange information.\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}Class-based\\ APIs (object\\ oriented) – a\\ special type of\\ library based API\end{tabular} & Java API & \begin{tabular}[c]{@{}l@{}}These APIs provide data and functionality\\ organised around classes, as defined in \\ objectoriented languages. Each class offers \\ a discrete set of information and associated\\ behaviours, often corresponding to a human\\ understanding of a concept.\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}Object\\ remoting\\ APIs\end{tabular} & CORBA & \begin{tabular}[c]{@{}l@{}}These APIs use a remoting protocol, such as\\ CORBA – Common Object Request Broker\\ Architecture. Such an API works by\\ implementing local proxy objects to represent\\ the remote objects, and interacting with the\\ local object. The same interaction is then\\ duplicated on the remote object,via the\\ protocol.\end{tabular} \\ \hline
+\end{longtable}
