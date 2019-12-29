@@ -1,37 +1,310 @@
 \begin{thebibliography}{}
 
-\bibitem[Abramovich et~al., 1995]{AAB95}
-Abramovich, Y.~A., Aliprantis, C.~D., and Burkinshaw, O. (1995).
-\newblock Another characterization of the invariant subspace problem.
-\newblock {\em Operator Theory in Function Spaces and Banach Lattices. {\em The
-  A.C.\,Zaanen Anniversary Volume}, Operator Theory: Advances and
-  Applications}, 75:15--31.
-\newblock Birkh\"auser Verlag.
+\bibitem[API, 2019]{rapid_apis}
+API, R. (2019).
+\newblock Find and connect to the world’s top apis.
+\newblock [online] \url{https://rapidapi.com/} {[Last accessed : 2019-12-29]}.
 
-\bibitem[Ancey et~al., 1996]{Ancey1996}
-Ancey, C., Coussot, P., and Evesque, P. (1996).
-\newblock Examination of the possibility of a fluid-mechanics treatment of
-  dense granular flows.
-\newblock {\em Mechanics of Cohesive-frictional Materials}, 1(4):385--403.
+\bibitem[Apis, 2019]{nordic_apis}
+Apis, N. (2019).
+\newblock Api discovery: 15 ways to find apis.
+\newblock [online]
+  \url{https://nordicapis.com/api-discovery-15-ways-tofind-apis/} {[Last
+  accessed : 2019-12-29]}.
 
-\bibitem[Aupetit, 1991]{Aup91}
-Aupetit, B. (1991).
-\newblock {\em A {Primer} on {Spectral} {Theory}}.
-\newblock Springer-Verlag, New York.
+\bibitem[{Arnaud Lauret}, 2016]{api_economy}
+{Arnaud Lauret}, B. C. A.~K. (2016).
+\newblock The api economy.
+\newblock [online]
+  \url{https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/theapieconomy.pdf}
+  {[Last accessed : 2019-12-29]}.
 
-\bibitem[Conway, 1990]{Con90}
-Conway, J.~B. (1990).
-\newblock {\em A {Course} in {Functional} {Analysis}}.
-\newblock Springer-Verlag, New York, second edition.
+\bibitem[{Arun Perinkolam}, 2017]{deloitte_insights}
+{Arun Perinkolam}, L. V.~C. (2017).
+\newblock Api imperative: From it concern to business mandate.
+\newblock {\em Tech Trends 2018}.
+\newblock [online]
+  \url{https://www2.deloitte.com/us/en/insights/focus/tech-trends/2018/api-program-strategy.html}
+  {[Last accessed : 2019-12-29]}.
 
-\bibitem[Ljubi\v{c} and Macaev, 1965]{LM65}
-Ljubi\v{c}, J.~I. and Macaev, V.~I. (1965).
-\newblock On operators with a separable spectrum.
-\newblock {\em Amer. Math. Soc. Transl. (2)}, 47:89--129.
+\bibitem[Borschette, 2017]{api_industrial_data}
+Borschette, A. (2017).
+\newblock Data access and transfer with a focus on apis and industrial data
+  platforms.
+\newblock [online]
+  \url{https://ec.europa.eu/information_society/newsroom/image/document/2017-32/report_final_for_web_C285AA6E-0C77-373C-999BF6DFBCC3F995_46252.pdf}
+  {[Last accessed : 2019-12-29]}.
 
-\bibitem[Read, 1985]{Rea85}
-Read, C.~J. (1985).
-\newblock A solution to the invariant subspace problem on the space $l_1$.
-\newblock {\em Bull. London Math. Soc.}, 17:305--317.
+\bibitem[Commission, 2016]{action_plan}
+Commission, E. (2016).
+\newblock Communication: Eu egovernment action plan 2016-2020 - accelerating
+  the digital transformation of government.
+\newblock [online]
+  \url{https://ec.europa.eu/digital-single-market/en/news/communication-eu-egovernment-action-plan-2016-2020-accelerating-digital-transformation}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Commission, 2017a]{eif}
+Commission, E. (2017a).
+\newblock The new european interoperability framework.
+\newblock [online] \url{https://ec.europa.eu/isa2/eif_en} {[Last accessed :
+  2019-12-29]}.
+
+\bibitem[Commission, 2017b]{tallin_declaration}
+Commission, E. (2017b).
+\newblock Tallinn declaration on egovernment.
+\newblock [online] \url{http://ec.europa.eu/newsroom/document.cfm?doc_id=47559}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Commission, 2018]{ai_europe}
+Commission, E. (2018).
+\newblock Communication artificial intelligence for europe.
+\newblock [online]
+  \url{https://ec.europa.eu/digital-single-market/en/news/communication-artificial-intelligence-europe}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[commission, 2018]{eu_innovation_programmes}
+commission, E. (2018).
+\newblock Fiware final report - a new model for eu innovation programmes.
+\newblock [online]
+  \url{https://ec.europa.eu/digital-single-market/en/news/fiware-final-report-new-model-eu-innovation-programmes}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Commission, 2019a]{public_sector_info}
+Commission, E. (2019a).
+\newblock European legislation on the re-use of public sector information.
+\newblock [online]
+  \url{https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Commission, 2019b]{eu_payment_directives}
+Commission, E. (2019b).
+\newblock Payment services (psd 2) - directive (eu) 2015/2366.
+\newblock [online]
+  \url{https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366_en}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Consortium, 2017]{open_geospatial_consortium}
+Consortium, O.~G. (2017).
+\newblock Ogc® open geospatial apis - white paper.
+\newblock [online]
+  \url{http://docs.opengeospatial.org/wp/16-019r4/16-019r4.html} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[Council, 2017]{interface_standardisation}
+Council, E.~P. (2017).
+\newblock How can application programming interface standardisation be achieved
+  in the context of the revised payment services directive?
+\newblock [online] \url{
+  https://www.europeanpaymentscouncil.eu/news-insights/insight/how-can-application-programming-interface-standardisation-be-achieved-context}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[{David W. Cearley}, 2016]{trends_2017}
+{David W. Cearley}, M.~A. (2016).
+\newblock Gartner identifies the top 10 strategic technology trends for 2017.
+\newblock [online]
+  \url{https://www.gartner.com/en/newsroom/press-releases/2016-10-18-gartner-identifies-the-top-10-strategic-technology-trends-for-2017}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[E-Estonia, 2019]{x-road}
+E-Estonia (2019).
+\newblock X-road.
+\newblock [online]
+  \url{https://e-estonia.com/solutions/interoperability-services/x-road/}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[ERP, 2019]{erp_integration}
+ERP (2019).
+\newblock Erp integration - a united application architecture.
+\newblock [online]
+  \url{https://www.mulesoft.com/resources/esb/erp-integration-application-architecture}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Finnerty, 2018]{gov_transformation}
+Finnerty, B. (2018).
+\newblock A digital government technology platform is essential to government
+  transformation.
+\newblock [online]
+  \url{https://www.gartner.com/en/documents/3534849/accelerate-data-centric-digital-government-with-a-proact}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Government Digital Service, 2018]{tech_gov}
+Government Digital Service (2018).
+\newblock Identifying the challenges of designing cross-government apis.
+\newblock [online]
+  \url{https://technology.blog.gov.uk/2018/01/29/identifying-the-challenges-of-designing-cross-government-apis/}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Gov.uk, 2019]{gov_uk_api}
+Gov.uk (2019).
+\newblock Api technical and data standards.
+\newblock [online]
+  \url{https://www.gov.uk/guidance/gds-api-technical-and-datastandards} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[Graphql, 2012]{graphql}
+Graphql (2012).
+\newblock Graphql.
+\newblock [online] \url{https://graphql.org/} {[Last accessed : 2019-12-29]}.
+
+\bibitem[Insider, 2014]{fed_tech}
+Insider, G.~T. (2014).
+\newblock Government agencies leading app economy using innovation drive
+  economic growth.
+\newblock [online]
+  \url{https://federaltechnologyinsider.com/government-agencies-leading-app-economyusing-innovation-drive-economic-growth/}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[ISO, 2018]{iso}
+ISO (2018).
+\newblock Iso standard for apis.
+\newblock [online]
+  \url{https://www.iso20022.org/news/apis-and-iso-20022-whitepaper} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[{Karen C.}{Simon Mueller}, 2017]{define_api}
+{Karen C.}{Simon Mueller} (2017).
+\newblock Api.
+\newblock [online] \url{https://www.definition.net/define/api} {[Last accessed
+  : 2019-12-29]}.
+
+\bibitem[{Kiran Somalwar}, 2014]{hcl_tech}
+{Kiran Somalwar}, C. A. B.~D. (2014).
+\newblock Api-fication core building block of the digital enterprise – white
+  paper.
+\newblock [online]
+  \url{https://www.hcltech.com/white-papers/systems-integration/api-fication-core-building-block-digitalenterprise}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Lacheca, 2016]{proactive_api}
+Lacheca, D. (2016).
+\newblock Accelerate data-centric, digital government with a proactive api
+  program.
+\newblock [online]
+  \url{https://www.gartner.com/en/documents/3534849/accelerate-data-centric-digital-government-with-a-proact}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Mulesoft, 2019]{mulesoft_salesforce}
+Mulesoft (2019).
+\newblock Salesforce signs definitive agreement to acquire mulesoft.
+\newblock [online]
+  \url{https://www.mulesoft.com/press-center/salesforce-acquisition} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[OGC, 2019]{opengeospatial}
+OGC (2019).
+\newblock Ogc® standards and supporting documents.
+\newblock [online] \url{http://www.opengeospatial.org/standards} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[OGC e-Learning, 2019]{opengeospatial_elearning}
+OGC e-Learning (2019).
+\newblock Introduction to ogc standards.
+\newblock [online] \url{
+  http://cite.opengeospatial.org/pub/cite/files/edu/ogcstandards/text/services-ogc.html}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Ordnance Survey, 2019]{os_places}
+Ordnance Survey (2019).
+\newblock Os places api.
+\newblock [online] \url{https://developer.ordnancesurvey.co.uk/os-places-api}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Organisation for Economic Co-operation and Development,
+  2019]{open_gov}
+Organisation for Economic Co-operation and Development (2019).
+\newblock Open government.
+\newblock [online] \url{http://www.oecd.org/gov/open-government/} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[{Paolo Malinverno}, 2017]{api_ecosystems}
+{Paolo Malinverno}, M.~K. (2017).
+\newblock From apis to ecosystems: Api economy best practices for building a
+  digital platform.
+\newblock [online]
+  \url{https://www.gartner.com/en/documents/3760363/from-apis-to-ecosystems-api-economy-best-practices-for-b}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Pearlman, 2016]{mulesoft_api_worth}
+Pearlman, S. (2016).
+\newblock How much is an api worth?
+\newblock [online]
+  \url{https://blogs.mulesoft.com/biz/api/how-much-is-an-api-worth/} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[Peiris, 2017]{dzone_iot}
+Peiris, P. (2017).
+\newblock How iot is strengthening ubiquitous computing (part 2).
+\newblock [online] \url{
+  https://dzone.com/articles/howiot-is-strengthening-ubiquitous-computing-part-2}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Platform, 2016]{edp_data_portal}
+Platform, E. P. S.~I. (2016).
+\newblock Understanding the european data portal.
+\newblock [online]
+  \url{https://www.europeandataportal.eu/sites/default/files/2016_understanding_the_european_data_portal.pdf}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Portal, 2019a]{edp_api_v3}
+Portal, E.~D. (2019a).
+\newblock Api version 3.
+\newblock [online] \url{http://www.europeandataportal.eu/data/en/api/3} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[Portal, 2019b]{edp_use_cases}
+Portal, E.~D. (2019b).
+\newblock Use cases.
+\newblock [online]
+  \url{https://www.europeandataportal.eu/en/using-data/use-cases} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[Portal, 2019c]{edp_sparql}
+Portal, E.~D. (2019c).
+\newblock Virtuoso sparql query editor.
+\newblock [online] \url{http://www.europeandataportal.eu/sparql} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[ProgrammableWeb, 2019a]{programmableweb_apis}
+ProgrammableWeb (2019a).
+\newblock Apis, mashups and the web as a platform.
+\newblock [online] \url{https://www.programmableweb.com/} {[Last accessed :
+  2019-12-29]}.
+
+\bibitem[ProgrammableWeb, 2019b]{programmableweb_search}
+ProgrammableWeb (2019b).
+\newblock Apis, search the largest api directory on the web.
+\newblock [online] \url{https://www.programmableweb.com/apis/directory} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[Regulation, 2019]{eu_gdpr}
+Regulation, E. G. D.~P. (2019).
+\newblock Gdpr portal: Site overview.
+\newblock [online] \url{ https://www.eugdpr.org} {[Last accessed :
+  2019-12-29]}.
+
+\bibitem[resources, 2019]{digital_first}
+resources, M. (2019).
+\newblock Digital first service standard.
+\newblock [online] \url{https://resources.mygov.scot/standards/digital-first/}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[The White House President Obama Archives, 2019]{whitehouse_archives}
+The White House President Obama Archives (2019).
+\newblock Open government initiative.
+\newblock [online] \url{https://obamawhitehouse.archives.gov/open} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[Union, 2019]{eu_funding}
+Union, E. (2019).
+\newblock Eu funding.
+\newblock [online]
+  \url{https://europa.eu/european-union/about-eu/funding-grants_en} {[Last
+  accessed : 2019-12-29]}.
+
+\bibitem[Wikipedia, 2019]{ubiquitous_computing}
+Wikipedia (2019).
+\newblock Ubiquitous computing.
+\newblock [online] \url{https://en.wikipedia.org/wiki/Ubiquitous_computing}
+  {[Last accessed : 2019-12-29]}.
 
 \end{thebibliography}
