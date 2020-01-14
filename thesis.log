@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.27)  29 DEC 2019 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.27)  14 JAN 2020 22:22
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -151,11 +151,23 @@ tex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdfte
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdfte
 xcmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
-Package pdftexcmds Info: LuaTeX not detected.
+
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/iftex\iftex.sty"
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+
+LaTeX Warning: You have requested, on input line 186, version
+               `2019/11/07' of package iftex,
+               but only version
+               `2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX,
+ and LuaTeX'
+               is available.
+
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
@@ -502,7 +514,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 ("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.
 sty"
-Package: amsmath 2018/12/01 v2.17b AMS math features
+Package: amsmath 2019/11/16 v2.17d AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
@@ -521,20 +533,20 @@ ty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count127
-LaTeX Info: Redefining \frac on input line 223.
+LaTeX Info: Redefining \frac on input line 227.
 \uproot@=\count128
 \leftroot@=\count129
-LaTeX Info: Redefining \overline on input line 385.
+LaTeX Info: Redefining \overline on input line 389.
 \classnum@=\count130
 \DOTSCASE@=\count131
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen110
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count132
 \c@MaxMatrixCols=\count133
 \dotsspace@=\muskip10
@@ -555,8 +567,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks26
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
 )
 ("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb
 .sty"
@@ -566,41 +578,36 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 f.sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsu
-b-hyperref.sty"
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hobsub\hobsub-hy
+perref.sty"
+Package: hobsub-hyperref 2019-11-14
+hobsub not currently supported, see hobsub.dtx to extract original code
 
-
-("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsu
-b-generic.sty"
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvte
+x.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+)
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdfes
+cape.sty"
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\hycolor
+.sty"
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
+
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\xcolor-
+patch.sty"
+Package: xcolor-patch 2016/05/16 xcolor patch
+
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\hopatch
+.sty"
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+)))
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\letltxm
+acro.sty"
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+))
 ("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook
 .sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
@@ -614,6 +621,10 @@ def"
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\intca
+lc.sty"
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count141
 
@@ -643,6 +654,16 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen118
+
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\bitse
+t.sty"
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\bigin
+tcalc.sty"
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+))
 \Fld@menulength=\count143
 \Field@Width=\dimen119
 \Fld@charsize=\dimen120
@@ -655,6 +676,11 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
+
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\atbeg
+shi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
 \Hy@abspage=\count144
 \c@Item=\count145
 \c@Hfootnote=\count146
@@ -664,12 +690,22 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 ("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex
 .def"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\atverye
+nd.sty"
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+)
 \Fld@listcount=\count147
 \c@bookmark@seq@number=\count148
 
 ("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfi
 lecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\uniqu
+ecounter.sty"
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
@@ -1493,7 +1529,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 (Declaration/declaration.aux) (Acknowledgement/acknowledgement.aux)
 (Abstract/abstract.aux) (Chapter1/chapter1.aux) (Chapter2/chapter2.aux)
 (Chapter3/chapter3.aux) (Chapter4/chapter4.aux) (Conclusion/conclusion.aux)
-(Appendix1/appendix1.aux))
+(Appendix1/appendix1.aux) (Report/report.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
@@ -1565,6 +1601,10 @@ Package hyperref Info: Link coloring ON on input line 132.
 .sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\refcoun
+t.sty"
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+)
 ("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\getti
 tlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
@@ -1694,7 +1734,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 136.
 \PHD@crest=\box83
-<Figs/University_Crest.jpg, id=126, 903.375pt x 903.375pt>
+<Figs/University_Crest.jpg, id=130, 903.375pt x 903.375pt>
 File: Figs/University_Crest.jpg Graphic file (type jpg)
 <use Figs/University_Crest.jpg>
 Package pdftex.def Info: Figs/University_Crest.jpg  used on input line 136.
@@ -1782,74 +1822,78 @@ No file thesis.nls.
 
  (Chapter1/chapter1.tex
 Chapter 1.
+
+Overfull \hbox (0.57918pt too wide) in paragraph at lines 46--47
+[]\T1/ptm/b/n/12 contributions from dis-parate fields and dis-courses on this t
+opic are be-ing con-trasted
+ []
+
 [1
 
 
 ] [2] [3
 
 ] [4]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 112.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 110.
 
 
 ("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd
 "
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [5] [6]) [7] [8]
+) [5] [6]) [7]
 \openout2 = `Chapter2/chapter2.aux'.
 
- (Chapter2/chapter2.tex
+ (Chapter2/chapter2.tex [8
+
+
+
+]
 Chapter 2.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 114.
 
-("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
+
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\
+pgflibraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\arrowsize=\dimen320
+))
+("C:\Users\Michael\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibrarypositioning.code.tex"
+File: tikzlibrarypositioning.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 114.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-[9
+Missing character: There is no ] in font nullfont!
 
+Overfull \hbox (50.58363pt too wide) in paragraph at lines 64--65
+[][] 
+ []
 
-
-] [10] [11
-
-] [12] [13] [14] [15] [16]
-Overfull \hbox (0.10727pt too wide) in alignment at lines 459--462
+[9] [10] [11] [12] [13] [14] [15]
+Overfull \hbox (0.10727pt too wide) in alignment at lines 359--362
  [] [] [] 
  []
 
 
-Overfull \hbox (0.10727pt too wide) in alignment at lines 462--464
+Overfull \hbox (0.10727pt too wide) in alignment at lines 362--364
  [] [] [] 
  []
 
 
-Overfull \hbox (0.10727pt too wide) in alignment at lines 464--473
+Overfull \hbox (0.10727pt too wide) in alignment at lines 364--373
  [] [] [] 
  []
 
-[17]) [18]
+[16]) [17]
 \openout2 = `Chapter3/chapter3.aux'.
 
- (Chapter3/chapter3.tex
+ (Chapter3/chapter3.tex [18
+
+
+
+]
 Chapter 3.
-[19
-
-
-
-] [20]) [21]
+[19] [20]) [21]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (Chapter4/chapter4.tex [22
@@ -1858,7 +1902,7 @@ Chapter 3.
 
 ]
 Chapter 4.
-[23]) [24] [25]
+[23] [24]) [25]
 \openout2 = `Conclusion/conclusion.aux'.
 
  (Conclusion/conclusion.tex [26
@@ -1871,140 +1915,182 @@ Chapter 5.
 
 
 ] (thesis.bbl
-Underfull \hbox (badness 2538) in paragraph at lines 16--21
+Underfull \hbox (badness 5652) in paragraph at lines 4--10
+[]\T1/ptm/m/n/12 (+20) (2019).  Axway part-ners with elas-tic beam to lever-age
+ ar-ti-fi-cial in-tel-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
+\T1/ptm/m/n/12 (+20) gence for api se-cu-rity.  [][]$https : / / www . axway . 
+com / en / company / media / 2018 /
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 18--22
+[]\T1/ptm/m/n/12 (+20) (2019).  Top busi-ness in-tel-li-gence trends 2020.  [][
+]$https : / / bi-[]survey . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
+[]\T1/ptm/m/n/12 (+20) Andrew Kutt, L. A. (2017).  Es-to-nia's mod-ern dig-i-ta
+l gov-er-nance:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
+\T1/ptm/m/n/12 (+20) A con-ver-sa-tion with an-dres kütt and li-ina areng.  [on
+-line] [][]$https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
+\T1/ptm/m/n/12 (+20) / / www . csis . org / podcasts / strategic-[]technologies
+-[]podcast / estonia % E2 % 80 %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
+\T1/ptm/m/n/12 (+20) 99s-[]modern-[]digital-[]governance-[]conversation-[]andre
+s-[]k % C3 % BCtt$[][] [Last ac-cessed
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 44--49
 []\T1/ptm/m/n/12 (+20) Arnaud Lau-ret, B. C. A. K. (2016).  The api econ-omy.  
 [on-line] [][]$https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
 \T1/ptm/m/n/12 (+20) / / 19yw4b240vb03ws8qm25h366-[]wpengine . netdna-[]ssl . c
 om / wp-[]content / uploads /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--45
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
 []\T1/ptm/m/n/12 (+20) Commission, E. (2016).  Com-mu-ni-ca-tion: Eu egov-ern-m
 ent ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--45
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
 \T1/ptm/m/n/12 (+20) tion plan 2016-2020 - ac-cel-er-at-ing the dig-i-tal trans
 -for-ma-tion of gov-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--45
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
 \T1/ptm/m/n/12 (+20) ern-ment.  [on-line] [][]$https : / / ec . europa . eu / d
 igital-[]single-[]market / en / news /
  []
 
 
-Overfull \hbox (13.42372pt too wide) in paragraph at lines 39--45
+Overfull \hbox (13.42372pt too wide) in paragraph at lines 67--73
 \T1/ptm/m/n/12 (-20) communication-[]eu-[]egovernment-[]action-[]plan-[]2016-[]
 2020-[]accelerating-[]digital-[]transformation$[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--64
-[]\T1/ptm/m/n/12 (+20) Commission, E. (2018).  Com-mu-ni-ca-tion ar-ti-fi-cial 
-in-tel-li-gence for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--64
-\T1/ptm/m/n/12 (+20) eu-rope.  [on-line] [][]$https : / / ec . europa . eu / di
-gital-[]single-[]market / en / news /
- []
-
-
-Underfull \hbox (badness 3281) in paragraph at lines 66--71
-[]\T1/ptm/m/n/12 (+20) commission, E. (2018).  Fi-ware fi-nal re-port - a new m
-odel for eu in-
- []
-
-
-Underfull \hbox (badness 6094) in paragraph at lines 73--78
-[]\T1/ptm/m/n/12 (+20) Commission, E. (2019a).  Eu-ro-pean leg-is-la-tion on th
-e re-use of pub-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--78
-\T1/ptm/m/n/12 (+20) lic sec-tor in-for-ma-tion.  [on-line] [][]$https : / / ec
- . europa . eu / digital-[]single-[]market / en /
  []
 
 [31
 
 ]
-Underfull \hbox (badness 2547) in paragraph at lines 94--100
+Underfull \hbox (badness 3281) in paragraph at lines 87--92
+[]\T1/ptm/m/n/12 (+20) commission, E. (2018).  Fi-ware fi-nal re-port - a new m
+odel for eu in-
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 94--99
+[]\T1/ptm/m/n/12 (+20) Commission, E. (2019a).  Eu-ro-pean leg-is-la-tion on th
+e re-use of pub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
+\T1/ptm/m/n/12 (+20) lic sec-tor in-for-ma-tion.  [on-line] [][]$https : / / ec
+ . europa . eu / digital-[]single-[]market / en /
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 115--121
 []\T1/ptm/m/n/12 (+20) Council, E. P. (2017).  How can ap-pli-ca-tion pro-gram-
 ming in-ter-face stan-
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 94--100
+Underfull \hbox (badness 4024) in paragraph at lines 115--121
 \T1/ptm/m/n/12 (+20) dard-i-s-a-tion be achieved in the con-text of the re-vise
 d pay-ment ser-vices di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--114
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
 []\T1/ptm/m/n/12 (+20) E-Estonia (2019).  X-road.  [on-line] [][]$https : / / e
 -[]estonia . com / solutions /
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 131--136
+Underfull \hbox (badness 2512) in paragraph at lines 152--157
 []\T1/ptm/m/n/12 (+20) Government Dig-i-tal Ser-vice (2018).  Iden-ti-fy-ing th
 e chal-lenges of de-sign-
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 131--136
+Underfull \hbox (badness 3250) in paragraph at lines 152--157
 \T1/ptm/m/n/12 (+20) ing cross-government apis.  [on-line] [][]$https : / / tec
 hnology . blog . gov . uk / 2018 / 01 / 29 /
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 150--156
+Underfull \hbox (badness 1888) in paragraph at lines 171--177
 \T1/ptm/m/n/12 (+20) no-va-tion drive eco-nomic growth.  [on-line] [][]$https :
  / / federaltechnologyinsider . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--156
+Underfull \hbox (badness 10000) in paragraph at lines 171--177
 \T1/ptm/m/n/12 (+20) government-[]agencies-[]leading-[]app-[]economyusing-[]inn
 ovation-[]drive-[]economic-[]growth/$[][]
  []
 
-
-Underfull \hbox (badness 3849) in paragraph at lines 179--185
+[32]
+Underfull \hbox (badness 3849) in paragraph at lines 200--206
 []\T1/ptm/m/n/12 (+20) Lacheca, D. (2016).  Ac-cel-er-ate data-centric, dig-i-t
 al gov-ern-ment with a
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 179--185
+Underfull \hbox (badness 1221) in paragraph at lines 200--206
 \T1/ptm/m/n/12 (+20) proac-tive api pro-gram.  [on-line] [][]$https : / / www .
  gartner . com / en / documents / 3534849 /
  []
 
-[32]
-Underfull \hbox (badness 4686) in paragraph at lines 242--247
+
+Underfull \hbox (badness 4686) in paragraph at lines 263--268
 []\T1/ptm/m/n/12 (+20) Platform, E. P. S. I. (2016).  Un-der-stand-ing the eu-r
 o-pean data por-tal.
  []
 
-
-Underfull \hbox (badness 1490) in paragraph at lines 262--266
+[33]
+Underfull \hbox (badness 1490) in paragraph at lines 283--287
 []\T1/ptm/m/n/12 (+20) Portal, E. D. (2019c).  Vir-tu-oso sparql query ed-i-tor
 .  [on-line] [][]$http : / / www .
  []
 
-[33]) [34]
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--337
+[]\T1/ptm/m/n/12 (+20) Wodehouse, C. (2016).  Pub-lic apis vs. pri-vate apis: W
+hat's the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--337
+\T1/ptm/m/n/12 (+20) dif-fer-ence?  [on-line] [][]$https : / / www . upwork . c
+om / hiring / development /
+ []
+
+) [34]
 \openout2 = `Appendix1/appendix1.aux'.
 
  (Appendix1/appendix1.tex
@@ -2027,38 +2113,48 @@ Overfull \hbox (25.40283pt too wide) in alignment at lines 11--21
 [35
 
 
-] [36]) [37] [38
+] [36]) [37]
+\openout2 = `Report/report.aux'.
+
+ (Report/report.tex [38
+
+
+
+]
+Chapter 6.
+) [39] [40
 
 
 ]
 No file thesis.ind.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
 (thesis.aux (Dedication/dedication.aux) (Declaration/declaration.aux)
 (Acknowledgement/acknowledgement.aux) (Abstract/abstract.aux)
 (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux)
-(Chapter4/chapter4.aux) (Conclusion/conclusion.aux) (Appendix1/appendix1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
+(Chapter4/chapter4.aux) (Conclusion/conclusion.aux) (Appendix1/appendix1.aux)
+(Report/report.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 076FBD9E714A8BE1C7F27D1AE9072F87;4726.
+(rerunfilecheck)             Checksum: AE48258D18E7C9855C0344278E1088F3;4783.
  ) 
 Here is how much of TeX's memory you used:
- 41552 strings out of 492946
- 803461 string characters out of 3125378
- 881054 words of memory out of 3000000
- 44454 multiletter control sequences out of 15000+200000
- 583013 words of font info for 187 fonts, out of 3000000 for 9000
+ 41263 strings out of 492946
+ 802595 string characters out of 3125378
+ 888766 words of memory out of 3000000
+ 44117 multiletter control sequences out of 15000+200000
+ 575527 words of font info for 175 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,109p,992b,1363s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,12n,109p,992b,1868s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
 nc}<C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
 mb8a.pfb><C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on thesis.pdf (54 pages, 297864 bytes).
+Output written on thesis.pdf (56 pages, 298518 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 37682 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 654 PDF objects out of 1000 (max. 8388607)
+ 139 named destinations out of 1000 (max. 500000)
+ 30528 words of extra memory for PDF output out of 35830 (max. 10000000)
 

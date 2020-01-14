@@ -1,5 +1,33 @@
 \begin{thebibliography}{}
 
+\bibitem[axw, 2019]{axway}
+ (2019).
+\newblock Axway partners with elastic beam to leverage artificial intelligence
+  for api security.
+\newblock
+  \url{https://www.axway.com/en/company/media/2018/press-release-axway-partners-elastic-beam-leverage-artificial-intelligence-api}.
+\newblock Accessed: 2019-12-29.
+
+\bibitem[bms, 2019]{bms}
+ (2019).
+\newblock “black mirror” special.
+\newblock \url{https://www.youtube.com/watch?v=bTnJORFcDbY&feature=youtu.be}.
+\newblock Accessed: 2019-12-29.
+
+\bibitem[bis, 2019]{bisurvey}
+ (2019).
+\newblock Top business intelligence trends 2020.
+\newblock \url{https://bi-survey.com/top-business-intelligence-trends}.
+\newblock Accessed: 2019-12-29.
+
+\bibitem[Andrew~Kutt, 2017]{andrew_kutt}
+Andrew~Kutt, L.~A. (2017).
+\newblock Estonia’s modern digital governance: A conversation with andres
+  kütt and liina areng.
+\newblock [online]
+  \url{https://www.csis.org/podcasts/strategic-technologies-podcast/estonia%E2%80%99s-modern-digital-governance-conversation-andres-k%C3%BCtt}
+  {[Last accessed : 2019-12-29]}.
+
 \bibitem[API, 2019]{rapid_apis}
 API, R. (2019).
 \newblock Find and connect to the world’s top apis.
@@ -53,13 +81,6 @@ Commission, E. (2017a).
 Commission, E. (2017b).
 \newblock Tallinn declaration on egovernment.
 \newblock [online] \url{http://ec.europa.eu/newsroom/document.cfm?doc_id=47559}
-  {[Last accessed : 2019-12-29]}.
-
-\bibitem[Commission, 2018]{ai_europe}
-Commission, E. (2018).
-\newblock Communication artificial intelligence for europe.
-\newblock [online]
-  \url{https://ec.europa.eu/digital-single-market/en/news/communication-artificial-intelligence-europe}
   {[Last accessed : 2019-12-29]}.
 
 \bibitem[commission, 2018]{eu_innovation_programmes}
@@ -305,6 +326,13 @@ Union, E. (2019).
 Wikipedia (2019).
 \newblock Ubiquitous computing.
 \newblock [online] \url{https://en.wikipedia.org/wiki/Ubiquitous_computing}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Wodehouse, 2016]{upwork}
+Wodehouse, C. (2016).
+\newblock Public apis vs. private apis: What’s the difference?
+\newblock [online]
+  \url{https://www.upwork.com/hiring/development/public-apis-vs-private-apis-whats-the-differenc}
   {[Last accessed : 2019-12-29]}.
 
 \end{thebibliography}

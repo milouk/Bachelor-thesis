@@ -7,18 +7,19 @@
 \contentsline {chapter}{\numberline {2}APIs in the Public Sector}{9}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}APIs as a mean to create \IeC {\textquoteleft }ecosystems\IeC {\textquoteright } in the public sector}{9}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}APIs as a mean to overcome complex integration}{12}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}APIs support open government initiatives}{14}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}APIs support open government initiatives}{13}{section.2.3}% 
 \contentsline {section}{\numberline {2.4}APIs as a mean for innovation}{14}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Challenges and Considerations}{16}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}Quantitative assessment of API use in the public sector}{17}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Conclusion}{18}{section.2.7}% 
+\contentsline {section}{\numberline {2.5}Challenges and Considerations}{15}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Quantitative assessment of API use in the public sector}{16}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Summary}{17}{section.2.7}% 
 \contentsline {chapter}{\numberline {3}Differences with the Private Sector}{19}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}API availability}{19}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Business Models and Disruption}{19}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Business Models and Disruption}{20}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Making money from APIs}{20}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Conclusion}{21}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Summary}{21}{section.3.4}% 
 \contentsline {chapter}{\numberline {4}The future trends for API use in the Public Sector}{23}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Conclusion}{25}{section.4.1}% 
 \contentsline {chapter}{\numberline {5}Conclusion}{27}{chapter.5}% 
 \contentsline {chapter}{References}{31}{chapter*.8}% 
 \contentsline {chapter}{Appendix \numberline {A}API Types}{35}{Appendix.a.A}% 
+\contentsline {chapter}{\numberline {6}Report}{39}{chapter.6}% 
