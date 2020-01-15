@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.27)  14 JAN 2020 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.27)  15 JAN 2020 23:43
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1529,7 +1529,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 (Declaration/declaration.aux) (Acknowledgement/acknowledgement.aux)
 (Abstract/abstract.aux) (Chapter1/chapter1.aux) (Chapter2/chapter2.aux)
 (Chapter3/chapter3.aux) (Chapter4/chapter4.aux) (Conclusion/conclusion.aux)
-(Appendix1/appendix1.aux) (Report/report.aux))
+(Report/report.aux) (Appendix1/appendix1.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
@@ -1734,7 +1734,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 136.
 \PHD@crest=\box83
-<Figs/University_Crest.jpg, id=130, 903.375pt x 903.375pt>
+<Figs/University_Crest.jpg, id=178, 903.375pt x 903.375pt>
 File: Figs/University_Crest.jpg Graphic file (type jpg)
 <use Figs/University_Crest.jpg>
 Package pdftex.def Info: Figs/University_Crest.jpg  used on input line 136.
@@ -1869,31 +1869,31 @@ Overfull \hbox (50.58363pt too wide) in paragraph at lines 64--65
 [][] 
  []
 
-[9] [10] [11] [12] [13] [14] [15]
-Overfull \hbox (0.10727pt too wide) in alignment at lines 359--362
+[9] [10] [11] [12] [13] [14] [15] [16]
+Overfull \hbox (0.10727pt too wide) in alignment at lines 368--371
  [] [] [] 
  []
 
 
-Overfull \hbox (0.10727pt too wide) in alignment at lines 362--364
+Overfull \hbox (0.10727pt too wide) in alignment at lines 371--373
  [] [] [] 
  []
 
 
-Overfull \hbox (0.10727pt too wide) in alignment at lines 364--373
+Overfull \hbox (0.10727pt too wide) in alignment at lines 373--382
  [] [] [] 
  []
 
-[16]) [17]
+[17]) [18]
 \openout2 = `Chapter3/chapter3.aux'.
 
- (Chapter3/chapter3.tex [18
-
-
-
-]
+ (Chapter3/chapter3.tex
 Chapter 3.
-[19] [20]) [21]
+[19
+
+
+
+] [20]) [21]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (Chapter4/chapter4.tex [22
@@ -1911,59 +1911,53 @@ Chapter 4.
 
 ]
 Chapter 5.
-[27] [28]) [29] [30
+[27]) [28]
+\openout2 = `Report/report.aux'.
+
+ (Report/report.tex
+Chapter 6.
+[29
+
+
+
+] [30] [31]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 156.
+ [32] [33] [34]) [35] [36
 
 
 ] (thesis.bbl
-Underfull \hbox (badness 5652) in paragraph at lines 4--10
-[]\T1/ptm/m/n/12 (+20) (2019).  Axway part-ners with elas-tic beam to lever-age
- ar-ti-fi-cial in-tel-li-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
-\T1/ptm/m/n/12 (+20) gence for api se-cu-rity.  [][]$https : / / www . axway . 
-com / en / company / media / 2018 /
- []
-
-
-Underfull \hbox (badness 7851) in paragraph at lines 18--22
-[]\T1/ptm/m/n/12 (+20) (2019).  Top busi-ness in-tel-li-gence trends 2020.  [][
-]$https : / / bi-[]survey . com /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--30
 []\T1/ptm/m/n/12 (+20) Andrew Kutt, L. A. (2017).  Es-to-nia's mod-ern dig-i-ta
 l gov-er-nance:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--30
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
 \T1/ptm/m/n/12 (+20) A con-ver-sa-tion with an-dres kütt and li-ina areng.  [on
 -line] [][]$https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--30
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
 \T1/ptm/m/n/12 (+20) / / www . csis . org / podcasts / strategic-[]technologies
 -[]podcast / estonia % E2 % 80 %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--30
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
 \T1/ptm/m/n/12 (+20) 99s-[]modern-[]digital-[]governance-[]conversation-[]andre
 s-[]k % C3 % BCtt$[][] [Last ac-cessed
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 44--49
+Underfull \hbox (badness 2538) in paragraph at lines 24--29
 []\T1/ptm/m/n/12 (+20) Arnaud Lau-ret, B. C. A. K. (2016).  The api econ-omy.  
 [on-line] [][]$https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--49
+Underfull \hbox (badness 10000) in paragraph at lines 24--29
 \T1/ptm/m/n/12 (+20) / / 19yw4b240vb03ws8qm25h366-[]wpengine . netdna-[]ssl . c
 om / wp-[]content / uploads /
  []
@@ -1992,7 +1986,7 @@ Overfull \hbox (13.42372pt too wide) in paragraph at lines 67--73
 2020-[]accelerating-[]digital-[]transformation$[][]
  []
 
-[31
+[37
 
 ]
 Underfull \hbox (badness 3281) in paragraph at lines 87--92
@@ -2054,7 +2048,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--177
 ovation-[]drive-[]economic-[]growth/$[][]
  []
 
-[32]
+[38]
 Underfull \hbox (badness 3849) in paragraph at lines 200--206
 []\T1/ptm/m/n/12 (+20) Lacheca, D. (2016).  Ac-cel-er-ate data-centric, dig-i-t
 al gov-ern-ment with a
@@ -2067,30 +2061,30 @@ Underfull \hbox (badness 1221) in paragraph at lines 200--206
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 263--268
+Underfull \hbox (badness 4686) in paragraph at lines 275--280
 []\T1/ptm/m/n/12 (+20) Platform, E. P. S. I. (2016).  Un-der-stand-ing the eu-r
 o-pean data por-tal.
  []
 
-[33]
-Underfull \hbox (badness 1490) in paragraph at lines 283--287
+[39]
+Underfull \hbox (badness 1490) in paragraph at lines 295--299
 []\T1/ptm/m/n/12 (+20) Portal, E. D. (2019c).  Vir-tu-oso sparql query ed-i-tor
 .  [on-line] [][]$http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--337
+Underfull \hbox (badness 10000) in paragraph at lines 344--349
 []\T1/ptm/m/n/12 (+20) Wodehouse, C. (2016).  Pub-lic apis vs. pri-vate apis: W
 hat's the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--337
+Underfull \hbox (badness 10000) in paragraph at lines 344--349
 \T1/ptm/m/n/12 (+20) dif-fer-ence?  [on-line] [][]$https : / / www . upwork . c
 om / hiring / development /
  []
 
-) [34]
+) [40]
 \openout2 = `Appendix1/appendix1.aux'.
 
  (Appendix1/appendix1.tex
@@ -2110,51 +2104,42 @@ Overfull \hbox (25.40283pt too wide) in alignment at lines 11--21
  [] [] [] 
  []
 
-[35
+[41
 
 
-] [36]) [37]
-\openout2 = `Report/report.aux'.
-
- (Report/report.tex [38
-
-
-
-]
-Chapter 6.
-) [39] [40
+] [42]) [43] [44
 
 
 ]
 No file thesis.ind.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
 (thesis.aux (Dedication/dedication.aux) (Declaration/declaration.aux)
 (Acknowledgement/acknowledgement.aux) (Abstract/abstract.aux)
 (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux)
-(Chapter4/chapter4.aux) (Conclusion/conclusion.aux) (Appendix1/appendix1.aux)
-(Report/report.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
+(Chapter4/chapter4.aux) (Conclusion/conclusion.aux) (Report/report.aux)
+(Appendix1/appendix1.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AE48258D18E7C9855C0344278E1088F3;4783.
+(rerunfilecheck)             Checksum: A2DB5F4C859443DF3A424D2663A5AA6B;7517.
  ) 
 Here is how much of TeX's memory you used:
- 41263 strings out of 492946
- 802595 string characters out of 3125378
- 888766 words of memory out of 3000000
- 44117 multiletter control sequences out of 15000+200000
- 575527 words of font info for 175 fonts, out of 3000000 for 9000
+ 41338 strings out of 492946
+ 803554 string characters out of 3125378
+ 888940 words of memory out of 3000000
+ 44139 multiletter control sequences out of 15000+200000
+ 580362 words of font info for 195 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,109p,992b,1868s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,12n,109p,1538b,1868s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
 nc}<C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
 mb8a.pfb><C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on thesis.pdf (56 pages, 298518 bytes).
+Output written on thesis.pdf (60 pages, 330528 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
- 139 named destinations out of 1000 (max. 500000)
- 30528 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 749 PDF objects out of 1000 (max. 8388607)
+ 165 named destinations out of 1000 (max. 500000)
+ 31136 words of extra memory for PDF output out of 35830 (max. 10000000)
 
