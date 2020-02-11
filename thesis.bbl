@@ -126,6 +126,12 @@ Council, E.~P. (2017).
   \url{https://www.gartner.com/en/newsroom/press-releases/2016-10-18-gartner-identifies-the-top-10-strategic-technology-trends-for-2017}
   {[Last accessed : 2019-12-29]}.
 
+\bibitem[Django, 2019]{django}
+Django (2019).
+\newblock Django project.
+\newblock \url{https://www.djangoproject.com/}.
+\newblock Accessed: 2019-12-29.
+
 \bibitem[E-Estonia, 2019]{x-road}
 E-Estonia (2019).
 \newblock X-road.
@@ -333,6 +339,12 @@ Union, E. (2019).
 \newblock [online]
   \url{https://europa.eu/european-union/about-eu/funding-grants_en} {[Last
   accessed : 2019-12-29]}.
+
+\bibitem[Walke, 2013]{react}
+Walke, J. (2013).
+\newblock Reactjs.
+\newblock \url{https://reactjs.org/}.
+\newblock Accessed: 2019-12-29.
 
 \bibitem[Wikipedia, 2019]{ubiquitous_computing}
 Wikipedia (2019).

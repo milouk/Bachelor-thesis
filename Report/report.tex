@@ -5,6 +5,8 @@
 
 \chapter{Report}
 
+The goal of this report , is to give an overview of the things that i have interacted with, throughout my internship, analyzing thoroughly both the deliverables and the theory behind the technologies used.
+
 \section{Company Description}
 GRNET S.A. provides Internet connectivity,
 high-quality e-Infrastructures and advanced services to the Greek Educational,
@@ -16,16 +18,16 @@ Additionally, GRNET develops digital applications that
 ensure resource optimization for the Greek State,
 modernize public functional structures and procedures,
 and introduce new models of cooperation between public bodies,
-research and education communities, citizens and businesses.\par
+research and education communities, citizens and businesses.
 
 GRNET provides advanced services to the following sectors:
-Education, Research, Health, Culture.\par
+Education, Research, Health, Culture.
 
 GRNET operates under the auspices of
 the Greek Secretariat for Research and Technology /
 Ministry of Education, Research and Religious Affairs.
 
-\subsubsection{ADVANCED E-INFRASTRUCTURES AND INNOVATIVE SERVICES}
+\subsubsection{Advanced E-Infrastructures and Innovative Services}
 GRNET backbone interconnects more than 100 institutions including
 all universities and technological institutions,
 research centers, public hospitals, museums and libraries,
@@ -41,7 +43,7 @@ and related infrastructure and services
 for the benefit of research and education,
 contributing to Europe’s economic growth and competitiveness.
 
-\subsubsection{LARGE SCALE COMPUTING SERVICES FOR THE RESEARCHERS (CLOUD COMPUTING)}
+\subsubsection{Large Scale Computing Services for the Researchers - Cloud Computing}
 GRNET offers innovative Cloud Computing services
 that are available via the Infrastracture as a Service model,
 under the brand name “\textasciitilde okeanos”.
@@ -56,7 +58,7 @@ The Cloud Computing infrastructure and services of GRNET
 have been made available to the pan-European R\&E community
 via the “okeanos-global” service.
 
-\subsubsection{HELLENIC HIGH PERFORMANCE COMPUTING INFRASTRUCTURE}
+\subsubsection{Hellenic High Performance Computing Infrastructure}
 GRNET “ARIS” national high-performance computing infrastructure
 provides state-of-the-art supercomputing capabilities
 to the Greek scientists.
@@ -67,7 +69,7 @@ Greek universities, technological institutions and research centers.
 The system enables the implementation of scientific
 and technical large-scale applications,
 with GRNET guaranteeing its smooth operation
-offering comprehensive end-user support.\par
+offering comprehensive end-user support.
 
 ARIS is based on IBM’s NeXtScale platform,
 incorporating the Intel ® Xeon ® E5 v2 processors,
@@ -85,7 +87,7 @@ and running scientific applications
 and provides several pre-installed compilers,
 scientific libraries and popular scientific application suites.
 
-\subsubsection{ENHANCING THE USE OF ICT AND ACCESS TO DIGITAL CONTENT}
+\subsubsection{Enhancing the Use of ICT and Access to Digital Content}
 GRNET coordinates a series of initiatives
 aimed at creating e-infrastructures and services
 that can facilitate organizing, describing and promoting
@@ -102,13 +104,13 @@ and services from researchers, teachers, staff of public bodies and SMEs,
 as well as other types of communities involved in
 the production, processing, and use of digital knowledge.
 
-\subsubsection{ENVIRONMENTAL POLICY}
+\subsubsection{Environmental Policies}
 GRNET implements green technologies
 in its networking and computing infrastructure,
 in an attempt to reduce its yearly greenhouse gas emissions’ footprint.
 In order to achieve that,
 environmental regulation, laws and codes of practice
-are highly regarded when assessing standards of environmental performance.\par
+are highly regarded when assessing standards of environmental performance.
 
 To this respect, GRNET’s environmental policy is based
 on the following lines of action:
@@ -146,10 +148,6 @@ at the same time, reduce the cost of accessing it.
 
 \section{Internship Goal}
 The general goal of this internship, is gaining experience in Software Engineering through the exposure to the complete lifecycle of Software Development, understanding how each step impacts the rest. The main focus is towards the coding aspect of SDLC, writing reusable, clean and well documented software.
-
-\section{Final Report Goal}
-The goal of the final report , is to give an overview of the things that i have interacted with, throughout my internship, analyzing thoroughly both the deliverables and the theory behind the technologies used.
-
 
 \section{Basic Characteristics}\label{ch:basic_characteristics}
 
@@ -260,12 +258,28 @@ The Division consists of the following departments:
 \end{itemize}
 
 \subsection{The Project - DILOSI}
-\subsubsection{Digital Solemn Declaration}
-fdgdfgfdgfdgfgdfg
-
+The Project DILOSI is a project carried out by GRNET on behalf of the Greek
+Government and its main purpose is digitalize the process of issuing a \textbf{solemn
+declaration} as well as an \textbf{authorization}. This project aims to change the way
+Greek citizens go about issuing a formal declaration which is going to KEP.
+There are over 10 developers working on this project. Out of these developers some
+of them are backend developers, some are frontend and the rest are responsible for the
+CI/CD, scaling and deployment of the app. DILOSI started on early October and it is scheduled
+to go live by the end of March. Regarding the technologies used on this project, the frontend is
+developed using REACT Framework ~\citep{react} while the backend is based on Django Framework~\citep{django}. As for the CI/CD as well as our Version Control System we use
+our own GitLab server. Currently as a Database we use PostgreSQL but it is very possible that
+we will migrate to Oracle as this is what the Government uses currently.
+For building the Application as a whole (Frontend, Backend, Database) we
+use Docker. Regarding the way we operate, we use Scrum which is an agile process
+framework for managing complex knowledge work. Scrum consist of daily meetings in our subgroups,
+as well as weekly meetings. Every couple of weeks we schedule a retrospective event where we discuss
+how the past weeks were, what was wrong, what was right, what to fix and propose ways to strengthen
+the team. 
 
 \subsection{My Role}
-sdkfdskfdfdsf
+In DILOSI i am a backend Developer. I have assisted in designing the database models as well as
+most of the API and its tests. Part of what i did includes designing programatically the template
+of the new digital solemn declaration and authorization based on the original paper ones. Other examples of the work i did on the API includes creating/submitting a Declaration, SMS Verification,  the Entity Inbox as well as the Actions each entity would perform on a declaration such as accept/ reject etc. Moreover, i implemented the backend infrastructure for administrators to add / edit new Declaration Templates e.g Zero Income Declaration Template and Template Types e.g Editing the "Solemn Declaration" Template Type footnotes. 
 
 \textbf{Requirements}
 \begin{itemize}
@@ -274,4 +288,5 @@ sdkfdskfdfdsf
 	\item Good knowledge of UNIX based systems.
 	\item Decent familiarity with Git.
 	\item Ability to communicate ideas, meet deadlines and be an active team member.
+	\item Ability to understand and cooperate with developers from other subgroups (Frontend).
 \end{itemize}

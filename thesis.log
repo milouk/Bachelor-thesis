@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.27)  15 JAN 2020 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.27)  12 FEB 2020 00:43
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1734,7 +1734,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 136.
 \PHD@crest=\box83
-<Figs/University_Crest.jpg, id=178, 903.375pt x 903.375pt>
+<Figs/University_Crest.jpg, id=174, 903.375pt x 903.375pt>
 File: Figs/University_Crest.jpg Graphic file (type jpg)
 <use Figs/University_Crest.jpg>
 Package pdftex.def Info: Figs/University_Crest.jpg  used on input line 136.
@@ -1786,15 +1786,14 @@ iversity_Crest.jpg>]
 
 
 
-]) [9
+] [9
 
-] [10
-
-
-] (thesis.toc
+])
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
- [11
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 141.
+ [10] (thesis.toc [11
+
+
 
 ])
 \tf@toc=\write7
@@ -1922,11 +1921,8 @@ Chapter 6.
 
 ] [30] [31]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 156.
- [32] [33] [34]) [35] [36
-
-
-] (thesis.bbl
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 154.
+ [32] [33] [34] [35]) [36] (thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
 []\T1/ptm/m/n/12 (+20) Andrew Kutt, L. A. (2017).  Es-to-nia's mod-ern dig-i-ta
 l gov-er-nance:
@@ -1988,6 +1984,8 @@ Overfull \hbox (13.42372pt too wide) in paragraph at lines 67--73
 
 [37
 
+
+
 ]
 Underfull \hbox (badness 3281) in paragraph at lines 87--92
 []\T1/ptm/m/n/12 (+20) commission, E. (2018).  Fi-ware fi-nal re-port - a new m
@@ -2019,67 +2017,67 @@ d pay-ment ser-vices di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
 []\T1/ptm/m/n/12 (+20) E-Estonia (2019).  X-road.  [on-line] [][]$https : / / e
 -[]estonia . com / solutions /
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 152--157
+Underfull \hbox (badness 2512) in paragraph at lines 158--163
 []\T1/ptm/m/n/12 (+20) Government Dig-i-tal Ser-vice (2018).  Iden-ti-fy-ing th
 e chal-lenges of de-sign-
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 152--157
+Underfull \hbox (badness 3250) in paragraph at lines 158--163
 \T1/ptm/m/n/12 (+20) ing cross-government apis.  [on-line] [][]$https : / / tec
 hnology . blog . gov . uk / 2018 / 01 / 29 /
  []
 
-
-Underfull \hbox (badness 1888) in paragraph at lines 171--177
+[38]
+Underfull \hbox (badness 1888) in paragraph at lines 177--183
 \T1/ptm/m/n/12 (+20) no-va-tion drive eco-nomic growth.  [on-line] [][]$https :
  / / federaltechnologyinsider . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--177
+Underfull \hbox (badness 10000) in paragraph at lines 177--183
 \T1/ptm/m/n/12 (+20) government-[]agencies-[]leading-[]app-[]economyusing-[]inn
 ovation-[]drive-[]economic-[]growth/$[][]
  []
 
-[38]
-Underfull \hbox (badness 3849) in paragraph at lines 200--206
+
+Underfull \hbox (badness 3849) in paragraph at lines 206--212
 []\T1/ptm/m/n/12 (+20) Lacheca, D. (2016).  Ac-cel-er-ate data-centric, dig-i-t
 al gov-ern-ment with a
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 200--206
+Underfull \hbox (badness 1221) in paragraph at lines 206--212
 \T1/ptm/m/n/12 (+20) proac-tive api pro-gram.  [on-line] [][]$https : / / www .
  gartner . com / en / documents / 3534849 /
  []
 
-
-Underfull \hbox (badness 4686) in paragraph at lines 275--280
+[39]
+Underfull \hbox (badness 4686) in paragraph at lines 281--286
 []\T1/ptm/m/n/12 (+20) Platform, E. P. S. I. (2016).  Un-der-stand-ing the eu-r
 o-pean data por-tal.
  []
 
-[39]
-Underfull \hbox (badness 1490) in paragraph at lines 295--299
+
+Underfull \hbox (badness 1490) in paragraph at lines 301--305
 []\T1/ptm/m/n/12 (+20) Portal, E. D. (2019c).  Vir-tu-oso sparql query ed-i-tor
 .  [on-line] [][]$http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--349
+Underfull \hbox (badness 10000) in paragraph at lines 356--361
 []\T1/ptm/m/n/12 (+20) Wodehouse, C. (2016).  Pub-lic apis vs. pri-vate apis: W
 hat's the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--349
+Underfull \hbox (badness 10000) in paragraph at lines 356--361
 \T1/ptm/m/n/12 (+20) dif-fer-ence?  [on-line] [][]$https : / / www . upwork . c
 om / hiring / development /
  []
@@ -2122,24 +2120,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A2DB5F4C859443DF3A424D2663A5AA6B;7517.
+(rerunfilecheck)             Checksum: 9DE8B626983194ECF78836E78F3AC791;7348.
  ) 
 Here is how much of TeX's memory you used:
- 41338 strings out of 492946
- 803554 string characters out of 3125378
- 888940 words of memory out of 3000000
- 44139 multiletter control sequences out of 15000+200000
- 580362 words of font info for 195 fonts, out of 3000000 for 9000
+ 41334 strings out of 492946
+ 803534 string characters out of 3125378
+ 887990 words of memory out of 3000000
+ 44144 multiletter control sequences out of 15000+200000
+ 579687 words of font info for 189 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,109p,1538b,1868s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,12n,109p,1641b,1868s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
 nc}<C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
 mb8a.pfb><C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/Michael/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on thesis.pdf (60 pages, 330528 bytes).
+Output written on thesis.pdf (60 pages, 334098 bytes).
 PDF statistics:
- 749 PDF objects out of 1000 (max. 8388607)
+ 751 PDF objects out of 1000 (max. 8388607)
  165 named destinations out of 1000 (max. 500000)
- 31136 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 31128 words of extra memory for PDF output out of 35830 (max. 10000000)
 
