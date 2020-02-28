@@ -518,13 +518,15 @@ supported!}
 \ifPHD@times
   \ifxetex
   \else
-    \RequirePackage{mathptmx}  % times roman, including math (where possible)
+   \RequirePackage{lmodern}
+   % \RequirePackage{mathptmx}  % times roman, including math (where possible)
   \fi
   \setFonttrue
   \message{PhDThesisPSnPDF: Using Times Roman font}
 \else
   \ifPHD@fourier
-    \RequirePackage{fourier} % Fourier
+    \RequirePackage{lmodern}
+    % \RequirePackage{fourier} % Fourier
     \setFonttrue
     \message{PhDThesisPSnPDF: Using Fourier font}
   \else

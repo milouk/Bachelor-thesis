@@ -35,11 +35,11 @@ Common uses of APIs concern their capacity as creators of ecosystems
 in the public sectors. Specific examples prove this aspect.
 
 
-\section{APIs as a mean to create ‘ecosystems’ in the public sector}
+\section{APIs as a means to create ‘ecosystems’ in the public sector}
 
-API based ecosystems can be described as the extended interrelationships enabled
+API — based ecosystems can be described as the extended interrelationships enabled
 by developers who build applications that connect various groups of stakeholders
-to each other via API based solutions that use the internet to communicate~\citep{api_ecosystems}.
+to each other via API based solutions that use the Internet to communicate~\citep{api_ecosystems}.
 
 An ecosystem may be created within a government entity, between entities or
 it may be wider reaching, for example between two governments or between a government,its citizens and third party providers.
@@ -64,7 +64,7 @@ child { node [anchor=west] {Open Public}
 \end{tikzpicture}
 
 \label{Figure 1}
-\caption{Ecosystems enabled by government APIs}~\citep{proactive_api}
+\caption{Ecosystems enabled by government APIs~\citep{proactive_api}}
 \end{figure}
 
 
@@ -75,8 +75,8 @@ ecosystem that they facilitate in the public sector.
 	 the sharing of data between systems within an entity, avoiding the need
 	 for complex point to point integration. Outside of the entity they are not visible
 	 to any person or body and are generally in the domain of the IT
-	 department. An example maybe a link between an internal Administration system and a Payroll solution.
-	 \item \textbf{Open Public – At Large Developer Networks}: Open APIs (i.e. they do
+	 department. An example maybe a link between an internal administration system and a payroll solution.
+	 \item \textbf{Open Public – At Large Developer Networks}: Open APIs (i.e., they do
 	 not require permission to access them) are the entry point for developers
 	 to access large public data sources such as a census information or other
 	 similar statistical data, perhaps live sensor data from which to create
@@ -106,8 +106,8 @@ ecosystem that they facilitate in the public sector.
 	 allowing agencies to gather data on a citizen only once, and then share it
 	 securely. For instance this may involve the sharing of citizen data between
 	 the agency responsible for income and taxation, and those providing benefits in
-	 order that eligibility could be confirmed. Estonia X-Road and Amsterdam City
-	 Data are some examples of this.
+	 order that eligibility could be confirmed. Estonia X-Road Platform and Amsterdam
+	 City Data are some examples of this.
 	 
 	 Besides not being specifically mentioned in the diagram above, the ability to use
 	 APIs is not constrained by sector or geographical boundaries. Open Secured
@@ -124,7 +124,7 @@ ecosystem that they facilitate in the public sector.
 In summary, the creation of an ‘ecosystem’ of providers and consumers fosters
 openness and efficiency and can also spawn the development of innovative service
 models, some of which may lead to revenue generation for the entities concerned
-(i.e mapping data~\citep{os_places}, or gazetteer data). The ability of APIs to provide access
+(i.e., mapping data~\citep{os_places}). The ability of APIs to provide access
 into the governments major operations and data, in turn allows it to realize its objectives
 of openness, and of delivering efficient, secure, transparent and interoperable
 citizen centric services. The APIs are, therefore, a significant technological
@@ -132,7 +132,7 @@ component, which will support the evolution of public service delivery
 models, enabling entities to accelerate their shift from eGovernment to
 Digital Government.
 
-\section{APIs as a mean to overcome complex integration}
+\section{APIs as a means to overcome complex integration}
 
 Many EU countries have built their computing infrastructure over the course of
 many years, constructing large, complex information systems featuring
@@ -151,7 +151,7 @@ and investment. They can be connected to legacy systems of record such as ERP
 systems~\citep{erp_integration}, or citizen records to make the data records directly available
 helping in this way to bypass the complex interfaces of already existing systems,
 and allow data sharing to be accomplished more easily. This implies that a
-well-designed government ecosystem could so that citizens or businesses will have to
+well-designed government ecosystem could help so that citizens or businesses will have to
 provide the same information less frequently (Once Only Principle, OOP).
 
 A characteristic EU example of where API infrastructure is currently being used to overcome
@@ -189,7 +189,7 @@ taxes are possible.
 
 Given the above, the X-Road itself is a ‘very low level engineered application’
 according to Andrew Kütt ~\citep{andrew_kutt}. Following certification, an organization
-deploys an x-road gateway
+deploys an X-Road gateway
 so that it can hold secure private communications via APIs with other certified
 organizations that are legally able to share data with it. As a collective set 
 of tools, the e-Estonia services provide the government of Estonia and its partners,
@@ -233,12 +233,12 @@ users to search, create, modify and delete metadata on the portal.~\citep{edp_da
 available both via the Comprehensive Knowledge Archive Network (CKAN)~\citep{edp_api_v3} and
 SPARQL~\citep{edp_sparql} endpoints.
 
-\section{APIs as a mean for innovation}
+\section{APIs as a means for innovation}
 
 APIs enable new innovative service models which better engage citizens and allow
 for more efficient delivery of their services. These services no longer have to
 be provided directly by the agency, partners and citizen developers can use
-available data to enable new solutions. Smart Cities and the vast amount of data
+available data to enable new solutions. Smart cities and the vast amount of data
 produced by sensors supports the development of dynamic platforms and ecosystems
 providing contextualized, real-time location-based data from IoT or crowdsourcing
 to business partners and startups giving them opportunities to create new services
@@ -246,7 +246,7 @@ or improve existing ones.
 
 Transport for London is a successful platform which uses APIs in an innovative way to deliver services.
 
-\textbf{TRANSPORT FOR LONDON (TfL)}
+\subsection{TRANSPORT FOR LONDON (TfL)}
 
 At a recent European conference~\citep{api_industrial_data}, Transport for London detailed the investment that they had made:
 \begin{itemize}
@@ -306,16 +306,6 @@ a citizen. This creates a number of consistent challenges for government:
 	application uses solutions such as OAuth 2.0 along with OpenId Connect. Other solutions
 	include Certificate based authentication, which are used in conjunction with a wider cyber security strategy and cryptography.
 	
-	\textbf{GREECE DIGITAL SOLEMN DECLARATION / AUTHORIZATION}
-	Within the context of my internship in the National Infrastructures for Research and Technology (GRNET), i had the opportunity to participate actively in the development of
-	the project "Digital Solemn Declaration". The project is based on the use of APIs and its
-	main purposes are to reduce the paper based bureaucracy and to facilitate the procedure of issuing a solemn declaration/authorization for citizens by reducing the need for the citizen
-	actually being present in the agency's desks (KEP). It also aims to promote the digital convergence
-	of Greece with other EU countries and to help Greece's digital transformation.
-	This project as mentioned before is based on APIs. Specifically, it uses Django ~\citep{django} to create a
-	REST API which designed according to the guidelines set by GOV.UK ~\citep{gov_uk_api} and shares data with other APIs vof public or private sector i.e Bank APIs in order to gather user information. \textit{"Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development"}. Moreover, in terms of security OAuth2.0 Authorization Protocol ~\citep{oauth} is being used along with another identity protocol above OAuth2.0 called OpenId Connect~\citep{openidconnect}. \textit{"OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It allows Clients to verify the identity of the End-User based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the End-User in an interoperable and REST-like manner. OpenID Connect allows clients of all types, including Web-based, mobile, and JavaScript clients, to request and receive information about authenticated sessions and end-users. The specification suite is extensible, allowing participants to use optional features such as encryption of identity data, discovery of OpenID Providers, and session management, when it makes sense for them."} The use of API in Digital Solemn Declaration permits open sharing of data through other Greek Government Agencies. This data can only be used by the Greek Government and by public sector agencies which means it is not accessible to third party developers.
-
-	
 	\item \textbf{Specifications or Standards} - Standards for APIs are available in
 	clusters such as the OGC~\citep{open_geospatial_consortium} standard, and the developing ISO
 	standard in Financial Services~\cite{iso}. However, most organizations are
@@ -327,18 +317,11 @@ a citizen. This creates a number of consistent challenges for government:
 	development in the aftermath of ‘Open Government’~\citep{interface_standardisation}.
 \end{itemize}
 
-FIWARE Foundation (Future Internet Ware) attempts to
-overcome some of the challenges mentioned above. It is funded by
-the EU, corporate membership and venture capital funding and has
-created a scalable open source platform in order to access and manage heterogeneous context information through
-open APIs~\citep{eu_innovation_programmes}. A standard for exchange of context information: FIWARE-NGSI
-(Next Generation Service Interface) is an open standard API to be used for Smart
-Cities, Smart Industry and Smart Agrifood as mentioned by Ulrich Ahle, CEO FIWARE. FIWARE success
-has been acknowledged by the EU, however a standardized API that is universally used has not been defined.
 \begin{itemize}
 	\item \textbf{Business Models} – The government does not usually charge for data that is publicly owned and it is used for the public good thus not generating much income by users
 	who wish to use that data. Examples of charging mechanisms being in place
-	are	limited, one being the UK’s Ordnance Survey maps~\citep{os_places}, and KLIP.
+	are	limited, one being the UK’s Ordnance Survey maps~\citep{os_places}, and KLIP
+	(Flanders Underground - Cable and Pipe Information Portal).
 \end{itemize}
 
 \section{Quantitative assessment of API use in the public sector}
@@ -346,13 +329,13 @@ has been acknowledged by the EU, however a standardized API that is universally 
 It is not easy to reliably quantify the amount of public sector organizations
 that are currently using APIs internally, but the total number it is estimated to amount to millions~\citep{deloitte_insights}. Organizations
 that create externally facing APIs in order to interact with huge data sources
-are common worldwide which is obvious by the numbers of APIs registered with online API Directories i.e ProgrammableWeb ~\citep{programmableweb_apis}. To lure the maximum amount of developers to leverage the
+are common worldwide, obvious by the numbers of APIs registered with online API Directories i.e., ProgrammableWeb ~\citep{programmableweb_apis} platform. To lure the maximum amount of developers to leverage the
 data being exposed, organizations publish their API with high-level
 technical specification. For that reason, an analysis of a popular
 directory is likely provide indicative information concerning the number of EU
 public sector APIs as well as the sectors and associated public services that they support.
 
-The best known and globally recognized API directory is ProgrammableWeb~\citep{programmableweb_search}.
+The best known and globally recognized API search directory is ProgrammableWeb~\citep{programmableweb_search}.
 Nordic APIs~\citep{nordic_apis} comments that it is ‘exhaustive’ and ‘comprehensive’ and is
 both hand curated and searchable. 
 

@@ -55,6 +55,13 @@ Black Mirror Special (2019).
 \newblock \url{https://www.youtube.com/watch?v=bTnJORFcDbY&feature=youtu.be}.
 \newblock Accessed: 2019-12-29.
 
+\bibitem[Blog, 2012]{netflix_api}
+Blog, N.~T. (2012).
+\newblock The secret to amazons success internal apis.
+\newblock
+  \url{https://netflixtechblog.com/embracing-the-differences-inside-the-netflix-api-redesign-15fd8b3dc49d}.
+\newblock Accessed: 2019-12-29.
+
 \bibitem[Borschette, 2017]{api_industrial_data}
 Borschette, A. (2017).
 \newblock Data access and transfer with a focus on apis and industrial data
@@ -63,31 +70,16 @@ Borschette, A. (2017).
   \url{https://ec.europa.eu/information_society/newsroom/image/document/2017-32/report_final_for_web_C285AA6E-0C77-373C-999BF6DFBCC3F995_46252.pdf}
   {[Last accessed : 2019-12-29]}.
 
-\bibitem[Commission, 2016]{action_plan}
-Commission, E. (2016).
-\newblock Communication: Eu egovernment action plan 2016-2020 - accelerating
-  the digital transformation of government.
-\newblock [online]
-  \url{https://ec.europa.eu/digital-single-market/en/news/communication-eu-egovernment-action-plan-2016-2020-accelerating-digital-transformation}
-  {[Last accessed : 2019-12-29]}.
+\bibitem[Castellani, 2017]{masa}
+Castellani, S. (2017).
+\newblock What is masa – mesh app and service architecture?
+\newblock \url{https://apifriends.com/api-management/what-is-masa/}.
+\newblock Accessed: 2019-12-29.
 
-\bibitem[Commission, 2017a]{eif}
-Commission, E. (2017a).
-\newblock The new european interoperability framework.
-\newblock [online] \url{https://ec.europa.eu/isa2/eif_en} {[Last accessed :
-  2019-12-29]}.
-
-\bibitem[Commission, 2017b]{tallin_declaration}
-Commission, E. (2017b).
+\bibitem[Commission, 2017]{tallin_declaration}
+Commission, E. (2017).
 \newblock Tallinn declaration on egovernment.
 \newblock [online] \url{http://ec.europa.eu/newsroom/document.cfm?doc_id=47559}
-  {[Last accessed : 2019-12-29]}.
-
-\bibitem[commission, 2018]{eu_innovation_programmes}
-commission, E. (2018).
-\newblock Fiware final report - a new model for eu innovation programmes.
-\newblock [online]
-  \url{https://ec.europa.eu/digital-single-market/en/news/fiware-final-report-new-model-eu-innovation-programmes}
   {[Last accessed : 2019-12-29]}.
 
 \bibitem[Commission, 2019a]{public_sector_info}
@@ -104,20 +96,11 @@ Commission, E. (2019b).
   \url{https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366_en}
   {[Last accessed : 2019-12-29]}.
 
-\bibitem[Consortium, 2017]{open_geospatial_consortium}
-Consortium, O.~G. (2017).
-\newblock Ogc® open geospatial apis - white paper.
-\newblock [online]
-  \url{http://docs.opengeospatial.org/wp/16-019r4/16-019r4.html} {[Last
-  accessed : 2019-12-29]}.
-
-\bibitem[Council, 2017]{interface_standardisation}
-Council, E.~P. (2017).
-\newblock How can application programming interface standardisation be achieved
-  in the context of the revised payment services directive?
-\newblock [online] \url{
-  https://www.europeanpaymentscouncil.eu/news-insights/insight/how-can-application-programming-interface-standardisation-be-achieved-context}
-  {[Last accessed : 2019-12-29]}.
+\bibitem[DATA.POLICE.UK, 2020]{police_data}
+DATA.POLICE.UK (2020).
+\newblock Police api documentation.
+\newblock \url{https://data.police.uk/docs/}.
+\newblock Accessed: 2019-12-29.
 
 \bibitem[{David W. Cearley}, 2016]{trends_2017}
 {David W. Cearley}, M.~A. (2016).
@@ -146,6 +129,41 @@ ERP (2019).
   \url{https://www.mulesoft.com/resources/esb/erp-integration-application-architecture}
   {[Last accessed : 2019-12-29]}.
 
+\bibitem[{EU General Data Protection Regulation}, 2019]{eu_gdpr}
+{EU General Data Protection Regulation} (2019).
+\newblock Gdpr portal: Site overview.
+\newblock [online] \url{ https://www.eugdpr.org} {[Last accessed :
+  2019-12-29]}.
+
+\bibitem[{European Commission}, 2016]{action_plan}
+{European Commission} (2016).
+\newblock Communication: Eu egovernment action plan 2016-2020 - accelerating
+  the digital transformation of government.
+\newblock [online]
+  \url{https://ec.europa.eu/digital-single-market/en/news/communication-eu-egovernment-action-plan-2016-2020-accelerating-digital-transformation}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[{European Commission}, 2017]{eif}
+{European Commission} (2017).
+\newblock The new european interoperability framework.
+\newblock [online] \url{https://ec.europa.eu/isa2/eif_en} {[Last accessed :
+  2019-12-29]}.
+
+\bibitem[{European Payments Council}, 2017]{interface_standardisation}
+{European Payments Council} (2017).
+\newblock How can application programming interface standardisation be achieved
+  in the context of the revised payment services directive?
+\newblock [online] \url{
+  https://www.europeanpaymentscouncil.eu/news-insights/insight/how-can-application-programming-interface-standardisation-be-achieved-context}
+  {[Last accessed : 2019-12-29]}.
+
+\bibitem[Evangelist, 2020]{amazon_evangelist}
+Evangelist, A. (2020).
+\newblock The secret to amazons success internal apis.
+\newblock
+  \url{https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/}.
+\newblock Accessed: 2019-12-29.
+
 \bibitem[Finnerty, 2018]{gov_transformation}
 Finnerty, B. (2018).
 \newblock A digital government technology platform is essential to government
@@ -153,6 +171,13 @@ Finnerty, B. (2018).
 \newblock [online]
   \url{https://www.gartner.com/en/documents/3534849/accelerate-data-centric-digital-government-with-a-proact}
   {[Last accessed : 2019-12-29]}.
+
+\bibitem[Gimenes, 2018]{ind4}
+Gimenes, N. (2018).
+\newblock What is masa – mesh app and service architecture?
+\newblock
+  \url{https://sensedia.com/en/api/why-do-iot-and-the-industry-4-0-need-apis/}.
+\newblock Accessed: 2019-12-29.
 
 \bibitem[Government Digital Service, 2018]{tech_gov}
 Government Digital Service (2018).
@@ -217,11 +242,11 @@ Mulesoft (2019).
   \url{https://www.mulesoft.com/press-center/salesforce-acquisition} {[Last
   accessed : 2019-12-29]}.
 
-\bibitem[OAuth, 2019]{oauth}
-OAuth (2019).
-\newblock Oauth 2.0.
-\newblock \url{https://oauth.net/2/}.
-\newblock Accessed: 2019-12-29.
+\bibitem[{Mygov.scot resources}, 2019]{digital_first}
+{Mygov.scot resources} (2019).
+\newblock Digital first service standard.
+\newblock [online] \url{https://resources.mygov.scot/standards/digital-first/}
+  {[Last accessed : 2019-12-29]}.
 
 \bibitem[OGC, 2019]{opengeospatial}
 OGC (2019).
@@ -236,11 +261,12 @@ OGC e-Learning (2019).
   http://cite.opengeospatial.org/pub/cite/files/edu/ogcstandards/text/services-ogc.html}
   {[Last accessed : 2019-12-29]}.
 
-\bibitem[OpenID Connect, 2019]{openidconnect}
-OpenID Connect (2019).
-\newblock Openid connect.
-\newblock \url{https://openid.net/connect/}.
-\newblock Accessed: 2019-12-29.
+\bibitem[{Open Geospatial Consortium}, 2017]{open_geospatial_consortium}
+{Open Geospatial Consortium} (2017).
+\newblock Ogc® open geospatial apis - white paper.
+\newblock [online]
+  \url{http://docs.opengeospatial.org/wp/16-019r4/16-019r4.html} {[Last
+  accessed : 2019-12-29]}.
 
 \bibitem[Ordnance Survey, 2019]{os_places}
 Ordnance Survey (2019).
@@ -314,18 +340,6 @@ ProgrammableWeb (2019b).
 \newblock Apis, search the largest api directory on the web.
 \newblock [online] \url{https://www.programmableweb.com/apis/directory} {[Last
   accessed : 2019-12-29]}.
-
-\bibitem[Regulation, 2019]{eu_gdpr}
-Regulation, E. G. D.~P. (2019).
-\newblock Gdpr portal: Site overview.
-\newblock [online] \url{ https://www.eugdpr.org} {[Last accessed :
-  2019-12-29]}.
-
-\bibitem[resources, 2019]{digital_first}
-resources, M. (2019).
-\newblock Digital first service standard.
-\newblock [online] \url{https://resources.mygov.scot/standards/digital-first/}
-  {[Last accessed : 2019-12-29]}.
 
 \bibitem[The White House President Obama Archives, 2019]{whitehouse_archives}
 The White House President Obama Archives (2019).

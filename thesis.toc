@@ -4,40 +4,51 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Glossary}{3}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}API Overview}{5}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}API Overview}{6}{subsection.1.2.1}% 
+\contentsline {subsubsection}{Types of APIs}{6}{section*.7}% 
+\contentsline {subsubsection}{API Standards}{7}{section*.8}% 
 \contentsline {chapter}{\numberline {2}APIs in the Public Sector}{9}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}APIs as a mean to create \IeC {\textquoteleft }ecosystems\IeC {\textquoteright } in the public sector}{9}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}APIs as a mean to overcome complex integration}{12}{section.2.2}% 
+\contentsline {section}{\numberline {2.1}APIs as a means to create \IeC {\textquoteleft }ecosystems\IeC {\textquoteright } in the public sector}{9}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}APIs as a means to overcome complex integration}{12}{section.2.2}% 
 \contentsline {section}{\numberline {2.3}APIs support open government initiatives}{13}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}APIs as a mean for innovation}{14}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}APIs as a means for innovation}{14}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}TRANSPORT FOR LONDON (TfL)}{14}{subsection.2.4.1}% 
 \contentsline {section}{\numberline {2.5}Challenges and Considerations}{15}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}Quantitative assessment of API use in the public sector}{17}{section.2.6}% 
+\contentsline {section}{\numberline {2.6}Quantitative assessment of API use in the public sector}{16}{section.2.6}% 
 \contentsline {section}{\numberline {2.7}Summary}{18}{section.2.7}% 
 \contentsline {chapter}{\numberline {3}Differences with the Private Sector}{19}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}API availability}{19}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Business Models and Disruption}{20}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Making money from APIs}{20}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Summary}{21}{section.3.4}% 
+\contentsline {section}{\numberline {3.2}Private API Usage}{19}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Business Models and Disruption}{20}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Making money from APIs}{21}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Summary}{21}{section.3.5}% 
 \contentsline {chapter}{\numberline {4}The future trends for API use in the Public Sector}{23}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Conclusion}{25}{section.4.1}% 
 \contentsline {chapter}{\numberline {5}Conclusion}{27}{chapter.5}% 
 \contentsline {chapter}{\numberline {6}Report}{29}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Company Description}{29}{section.6.1}% 
-\contentsline {subsubsection}{Advanced E-Infrastructures and Innovative Services}{29}{section*.8}% 
-\contentsline {subsubsection}{Large Scale Computing Services for the Researchers - Cloud Computing}{30}{section*.9}% 
-\contentsline {subsubsection}{Hellenic High Performance Computing Infrastructure}{30}{section*.10}% 
-\contentsline {subsubsection}{Enhancing the Use of ICT and Access to Digital Content}{30}{section*.11}% 
-\contentsline {subsubsection}{Environmental Policies}{31}{section*.12}% 
-\contentsline {subsubsection}{GR-IX}{31}{section*.13}% 
-\contentsline {section}{\numberline {6.2}Internship Goal}{32}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Basic Characteristics}{32}{section.6.3}% 
-\contentsline {subsection}{\numberline {6.3.1}Organic Structure}{32}{subsection.6.3.1}% 
-\contentsline {subsection}{\numberline {6.3.2}Board of Directors}{32}{subsection.6.3.2}% 
-\contentsline {subsection}{\numberline {6.3.3}Directorate of Administrative and Financial Management}{33}{subsection.6.3.3}% 
-\contentsline {subsection}{\numberline {6.3.4}Technology Development Division}{33}{subsection.6.3.4}% 
-\contentsline {subsection}{\numberline {6.3.5}Directorate of Electronic Infrastructure}{33}{subsection.6.3.5}% 
-\contentsline {subsection}{\numberline {6.3.6}Information Services and Application Development Division}{33}{subsection.6.3.6}% 
-\contentsline {subsubsection}{The Information Services and Application Development Division}{34}{section*.14}% 
-\contentsline {subsection}{\numberline {6.3.7}The Project - DILOSI}{35}{subsection.6.3.7}% 
-\contentsline {subsection}{\numberline {6.3.8}My Role}{35}{subsection.6.3.8}% 
-\contentsline {chapter}{References}{37}{chapter*.15}% 
-\contentsline {chapter}{Appendix \numberline {A}API Types}{41}{Appendix.a.A}% 
+\contentsline {subsubsection}{Advanced E-Infrastructures and Innovative Services}{29}{section*.10}% 
+\contentsline {subsubsection}{Large Scale Computing Services for the Researchers - Cloud Computing}{30}{section*.11}% 
+\contentsline {subsubsection}{Hellenic High Performance Computing Infrastructure}{30}{section*.12}% 
+\contentsline {subsubsection}{Enhancing the Use of ICT and Access to Digital Content}{31}{section*.13}% 
+\contentsline {subsubsection}{Environmental Policies}{31}{section*.14}% 
+\contentsline {subsubsection}{GR-IX}{32}{section*.15}% 
+\contentsline {subsection}{\numberline {6.1.1}Internship Goal}{32}{subsection.6.1.1}% 
+\contentsline {section}{\numberline {6.2}Internship Basic Characteristics}{32}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.2.1}Organic Structure}{32}{subsection.6.2.1}% 
+\contentsline {subsection}{\numberline {6.2.2}Board of Directors}{32}{subsection.6.2.2}% 
+\contentsline {subsection}{\numberline {6.2.3}Directorate of Administrative and Financial Management}{33}{subsection.6.2.3}% 
+\contentsline {subsection}{\numberline {6.2.4}Directorate of Electronic Infrastructure}{33}{subsection.6.2.4}% 
+\contentsline {subsection}{\numberline {6.2.5}Information Services and Application Development Division}{33}{subsection.6.2.5}% 
+\contentsline {subsection}{\numberline {6.2.6}My Role}{34}{subsection.6.2.6}% 
+\contentsline {subsubsection}{Required Skills}{34}{section*.16}% 
+\contentsline {section}{\numberline {6.3}Tasks}{35}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}Results}{35}{section.6.4}% 
+\contentsline {subsubsection}{Design of digital solemn declaration and authorization template}{36}{section*.17}% 
+\contentsline {subsubsection}{API Tests}{36}{section*.18}% 
+\contentsline {subsubsection}{My / Entity Inbox}{37}{section*.19}% 
+\contentsline {section}{\numberline {6.5}Time / Project Scheduling}{38}{section.6.5}% 
+\contentsline {section}{\numberline {6.6}Skills}{40}{section.6.6}% 
+\contentsline {section}{\numberline {6.7}Comments}{41}{section.6.7}% 
+\contentsline {chapter}{References}{43}{chapter*.21}% 
+\contentsline {chapter}{Appendix \numberline {A}API Types}{49}{Appendix.a.A}% 

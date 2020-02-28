@@ -15,10 +15,10 @@ At a strategy level, the Tallinn Declaration, signed on the 6th October 2017
 ~\citep{tallin_declaration}, confirms the commitment to the vision set out in the EU eGovernment
 Action Plan 2016-2020~\citep{action_plan} and in the European Interoperability Framework (EIF)~\citep{eif}.
 In a time span of five years (2018-2022), steps will be taken towards
-the implementation of the following principles in EU open organizations: "computerized
-naturally, comprehensiveness furthermore, availability", "once-just", "dependability
-and security", "transparency and straightforwardness", and "interoperability as a
-matter of course", just as national interoperability structures dependent on the
+the implementation of the following principles in EU open organizations: “computerized
+naturally, comprehensiveness furthermore, availability”, “once-just”, “dependability
+and security", “transparency and straightforwardness”, and “interoperability as a
+matter of course”, just as national interoperability structures dependent on the
 European Interoperability Framework (EIF).
 
 In the Declaration the “user-centricity principles for design and delivery of
@@ -28,40 +28,39 @@ and usability, reduction of the administrative burden, digital delivery of publi
 citizen engagement, incentives for digital service use, protection of personal data and
 privacy, redress and complaint mechanisms. At the same time, the Communication on “Building the data economy” (COM (2017) 9)
 looks at proven or potential blockages to the free movement of data and presents
-options to remove unjustified and or disproportionate data location restrictions
+options to remove unjustified and/or disproportionate data location restrictions
 in the EU. It also considers the barriers around access to, and transfer of,
 non-personal machine-generated data and data liability, as well as issues related
 to the portability of non-personal data, interoperability and standards.
-In particular, it aims at the development of technical solution for
+In particular, it aims at the development of technical solutions for
 the reliable exchange and identification of data. 
 
 Moreover, the digital transformation of society, business and government is raising
 issues for a range of policy matters in the EU. As e-government has
-been in place for the last 20 years, it is timely to explore the interaction between
+been in place for the last 20 years is several EU countries including the UK, Estonia etc.,
+it is timely to explore the interaction between
 technology and government activities from the perspective of digital government.
-To understand the intertwined forces that play a role in this transformation process,
-and their dynamics, 
-
-\textbf{contributions from disparate fields and discourses on this topic
-are being contrasted and compared.}
 
 Aspects of the digital
-transformation of government, concern the use of Web Application Programming Interfaces
+transformation of government concern the use of web Application Programming Interfaces
 (hereafter called “APIs”)). APIs can be seen as “safe entry ports for new and
 innovative uses of data” held by companies and potentially, public administrations.
 
-An opportunity exists to comprehend the current context and use of this technology
-early in the innovation cycle of e-government in EU countries.
-
 This study is set to explore
-Web APIs as enablers for the digital transformation of governments. While
+web APIs as enablers for the digital transformation of governments. While
 digital transformation of government is much wider than the technologies which
 can potentially support it, an analysis of the role of APIs in the public sector
 is highly relevant to illustrate how technology can enable transformation of
 government. This study examines APIs, and their role in the EU public sector as
 well as it points out the differences with the private sector and explores future
 trends with a particular focus on current use of APIs in projects developed by various
-EU Countries.
+EU Countries. Specifically, in the first chapter we present a glossary as well as an API
+overview. Next, we discuss APIs as means to create ecosystems in the public sector and
+to overcome complex integration. We analyze how it supports open government initiatives and
+how it promotes innovation as well as some challenges and considerations along with some
+quantitative metrics. Once we cover all the above we will explore the differences of the public 
+with the private sector in terms of API usage and more specifically we will talk about API availability, business models and disruption as well as making money from APIs. Finally,
+we will have a look at future API trends. The final chapter includes my internship report.
 
 \clearpage
 
@@ -76,7 +75,7 @@ EU Countries.
 	%
 	\endhead
 	%
-	API & \begin{tabular}[c]{@{}l@{}}Application Programming Interface - It is a set of clearly\\ defined methods of communication between the service\\ and any other software or components.\end{tabular} \\ \hline
+	API & \begin{tabular}[c]{@{}l@{}}Application Programming Interface — It is a set of clearly\\ defined methods of communication between the service\\ and any other software or components.\end{tabular} \\ \hline
 	API Ecosystem & \begin{tabular}[c]{@{}l@{}}The developers, and the users of the application constructs\\ they build through an API, either within a company or on\\ the Internet with business partners, customers, citizens etc.\end{tabular} \\ \hline
 	API Economy & \begin{tabular}[c]{@{}l@{}}A set of business models and channels — based on secure\\ access of functionality and exchange of data to an ecosystem\\ of developers and the users of the app constructs they\\ build — through an API, either within a company or on the\\ Internet with business partners, customers, citizens etc.\end{tabular} \\ \hline
 	API Versioning & \begin{tabular}[c]{@{}l@{}}The ability to change without rendering older versions of\\ the same API inoperable.\end{tabular} \\ \hline
@@ -85,8 +84,8 @@ EU Countries.
 	API portal & \begin{tabular}[c]{@{}l@{}}A means for developers to discover, collaborate,\\ consume, and publish APIs. To support the overall\\ goal of self-service, these portals describe APIs in\\ a way that represents their functionality, context\\ (the business semantics of what they do, and how \\ they do it), non-functional requirements (scalability,\\ security, response times, volume limits, and resiliency\\ dimensions of the service), versioning, and metrics \\ tracking usage, feedback, and performance.\\ For organizations without mature master data or\\ architectural standards, the API portal can still offer\\ visibility into existing APIs and provide contact information\\ for individuals who can describe features, functions, and\\ technical details of services.\end{tabular} \\ \hline
 	API gateway & \begin{tabular}[c]{@{}l@{}}A mechanism that allows consumers to become\\ authenticated and to “contract” with API specifications\\ and policies that are built into the API itself. Gateways\\ make it possible to decouple the “API proxy”—the node\\ by which consumers logically interact with the service—from\\ the underlying application for which the actual service is \\ being implemented. The gateway layer may offer the means\\ to load balance and throttle API usage.\end{tabular} \\ \hline
 	API brokers & \begin{tabular}[c]{@{}l@{}}Enrichment, transformation, and validation services\\ to manipulate information coming to/from APIs, as\\ well as tools to embody business rule engines, workflow,\\ and business process orchestration on top of underlying APIs.\end{tabular} \\ \hline
-	\begin{tabular}[c]{@{}l@{}}API\\ management\\ and monitoring\end{tabular} & \begin{tabular}[c]{@{}l@{}}A centralized and managed control level that provides\\ monitoring, service level management, SDLC process\\ integration, and role-based access management across\\ all three layers above. It includes the ability to instrument\\ and measure API usage, and even capabilities to price and\\ bill charge-back based on API consumption—to internal,\\ or potentially external, parties.\end{tabular} \\ \hline
-	RESTful API & \begin{tabular}[c]{@{}l@{}}REST stands for “representational state transfer.” APIs\\ built according to REST architectural standards are\\ stateless and offer a simpler alternative to some SOAP\\ standards. For example, REST enables plain-text exchanges\\ of data assets instead of using complex WSDL protocols.\\ It also makes it possible to inherit security policies\\ from an underlying transport mechanism. At a high level,\\ these and other simplified approaches can deliver better\\ performance and faster paths to develop, deploy, and\\ triage.\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}API\\ management\\ and monitoring\end{tabular} & \begin{tabular}[c]{@{}l@{}}A centralized and managed control level that provides\\ monitoring, service level management, \\System Development Life Cycle (SDLC) process\\ integration, and role-based access management across\\ all three layers above. It includes the ability to instrument\\ and measure API usage, and even capabilities to price and\\ bill charge-back based on API consumption—to internal,\\ or potentially external, parties.\end{tabular} \\ \hline
+	RESTful API & \begin{tabular}[c]{@{}l@{}}REST stands for “representational state transfer.” APIs\\ built according to REST architectural standards are\\ stateless and offer a simpler alternative to some SOAP\\ standards. For example, REST enables plain-text exchanges\\ of data assets instead of using complex WSDL protocols which \\ is an XML format for describing network services as a set \\of endpoints operating on messages containing either\\ document-oriented or procedure-oriented information.\\ It also makes it possible to inherit security policies\\ from an underlying transport mechanism. At a high level,\\ these and other simplified approaches can deliver better\\ performance and faster paths to develop, deploy, and\\ triage.\end{tabular} \\ \hline
 	\caption{Glossary}
 	\label{glossary}\\
 \end{longtable}
@@ -98,7 +97,7 @@ EU Countries.
 APIs have become a key technological component of modern digital
 architectures, impacting every sector of the global economy. In the public
 sector specifically, APIs are a fundamental enabler of the transformation of its
-operations from analogue(manual, paper) to digital.
+operations from analog (manual, paper) to digital.
 
 The purpose of this study is to showcase the 
 major contribution of APIs, when member states are in
@@ -114,12 +113,14 @@ covered the following topics:
 	API as components of a business plan.
 \end{itemize}
                                                                        
-In summary, in this study web based research has been used as well as my
+In summary, in this study web — based research has been used as well as my
 experience from my internship in GRNET to gather information for analysis
 of successful but diverse API based case studies from a range of EU countries
 and sectors.
 
-\textbf{API Overview}
+\subsection{API Overview}
+
+
 
 API interaction occurs when one application would like to:
 \begin{itemize}
@@ -130,7 +131,7 @@ API interaction occurs when one application would like to:
 
 \end{itemize}
 
-\textbf{Types of APIs}
+\subsubsection{Types of APIs}
 
 APIs represent an architectural approach that revolves around providing
 programmable interfaces to different applications. It is technology agnostic,
@@ -144,15 +145,15 @@ one agency’s system or department to be readily available to another without
 significant and expensive development effort. As well as cross-departmental
 access to functionality and information (or even cross-border with a
 different country’s administration) APIs also provide the ability to share
-information and functionality more widely, i.e. to developers and ultimately
+information and functionality more widely, i.e., to developers and ultimately
 to citizens for consumption through web or mobile based applications.
 
 Although there are many different types of API (see Appendix I), this study is
-most concerned with Web APIs. Web services expose these APIs as endpoints that
+most concerned with web APIs. Web services expose these APIs as endpoints that
 any internet-enabled language or software can access, in exactly the same way
 browsers access websites and services~\citep{fed_tech}. Web APIs deliver requests to the
 service provider, and then deliver the response back to the requestor,
-i.e. they are an interface for web applications, or applications that need to
+i.e., they are an interface for web applications, or applications that need to
 connect to each other via the Internet to communicate~\citep{define_api}.
 
 Web APIs themselves can be broken down further based on the type of data format
@@ -169,6 +170,8 @@ hidden from view, Web APIs are often publicly available and can be ‘advertised
 via API Directory sites online. Tens of thousands~\citep{programmableweb_search} are available for developers
 to deliver consumable information to end users to do everything, from checking
 traffic and weather, to updating a social media status, or even to make payments.
+
+\subsubsection{API Standards}
 
 In the geospatial domain, besides existing private companies famous API proposals
 (e.g. Google Map), the Open Geospatial Consortium (OGC) has created standards to
@@ -202,9 +205,7 @@ recognized that departments were developing APIs using different tools, platform
 and approaches~\citep{tech_gov}, and have set about working with industry to create a set of
 common principles for API design. The output has been a set of guidelines on how
 developers working in any UK public sector organisation should build APIs~\citep{gov_uk_api} to
-ensure consistency, and success. These guidelines apply to other countries too. Specifically,
-Greece has implemented these guidelines in some of its public sector applications such as the digital
-Solemn Declaration / Authorization issuing service.
+ensure consistency, and success. These guidelines apply to other countries too.
 Although they are titled as a ‘standard’, they
 are generic, and not exact or specific in the way that an ISO or OGC standard is.
 Nevertheless, given the fact that government is increasingly using APIs to
